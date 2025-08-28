@@ -3,15 +3,15 @@ package management
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	member_grpc "github.com/zitadel/zitadel/internal/api/grpc/member"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	mgmt_pb "github.com/zitadel/zitadel/pkg/grpc/management"
-	proj_pb "github.com/zitadel/zitadel/pkg/grpc/project"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	member_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/member"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	mgmt_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	proj_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project"
 )
 
 func listProjectGrantsRequestToModel(req *mgmt_pb.ListProjectGrantsRequest) (*query.ProjectGrantSearchQueries, error) {

@@ -3,7 +3,7 @@ package authz
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 // UserIDInCTX checks if the userID

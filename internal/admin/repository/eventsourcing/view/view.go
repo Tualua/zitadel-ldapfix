@@ -3,7 +3,7 @@ package view
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/zitadel/zitadel/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
 )
 
 type View struct {

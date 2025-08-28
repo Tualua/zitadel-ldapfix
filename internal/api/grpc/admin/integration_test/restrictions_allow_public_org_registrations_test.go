@@ -16,8 +16,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
 )
 
 func TestServer_Restrictions_DisallowPublicOrgRegistration(t *testing.T) {

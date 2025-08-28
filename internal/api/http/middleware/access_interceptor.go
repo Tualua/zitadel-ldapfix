@@ -10,12 +10,12 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/api/grpc/server/middleware"
-	http_utils "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/logstore"
-	"github.com/zitadel/zitadel/internal/logstore/record"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/server/middleware"
+	http_utils "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore/record"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 type AccessInterceptor struct {

@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/cmd/build"
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	filter "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
-	instance "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/cmd/build"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	filter "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
+	instance "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2"
 )
 
 func Test_InstancesToPb(t *testing.T) {

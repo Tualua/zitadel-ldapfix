@@ -5,12 +5,12 @@ import (
 
 	"github.com/muhlemmer/gu"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	resource_object "github.com/zitadel/zitadel/internal/api/grpc/resources/object/v3alpha"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/domain"
-	object "github.com/zitadel/zitadel/pkg/grpc/object/v3alpha"
-	schema "github.com/zitadel/zitadel/pkg/grpc/resources/userschema/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	resource_object "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/resources/object/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v3alpha"
+	schema "github.com/Tualua/zitadel-ldapfix/pkg/grpc/resources/userschema/v3alpha"
 )
 
 func (s *Server) CreateUserSchema(ctx context.Context, req *schema.CreateUserSchemaRequest) (*schema.CreateUserSchemaResponse, error) {

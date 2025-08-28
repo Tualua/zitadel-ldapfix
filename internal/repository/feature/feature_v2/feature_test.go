@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/feature"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/feature"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestSetEvent_FeatureJSON(t *testing.T) {

@@ -3,12 +3,12 @@ package projection
 import (
 	"testing"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	"github.com/zitadel/zitadel/internal/repository/instance"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/instance"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestSMSProjection_reduces(t *testing.T) {

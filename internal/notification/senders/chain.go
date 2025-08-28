@@ -1,6 +1,6 @@
 package senders
 
-import "github.com/zitadel/zitadel/internal/notification/channels"
+import "github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
 
 var _ channels.NotificationChannel = (*Chain)(nil)
 

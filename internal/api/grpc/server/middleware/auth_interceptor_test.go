@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const anAPIRole = "AN_API_ROLE"

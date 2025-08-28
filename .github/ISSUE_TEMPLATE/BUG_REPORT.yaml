@@ -8,7 +8,7 @@ body:
   attributes:
     value: |
       Thanks for taking the time to fill out this bug report!  
-      Learn more in our [contribution guide](https://github.com/zitadel/zitadel/blob/main/CONTRIBUTING.md#product-management) on how we will process your issue.
+      Learn more in our [contribution guide](https://github.com/Tualua/zitadel-ldapfix/blob/main/CONTRIBUTING.md#product-management) on how we will process your issue.
 - type: checkboxes
   id: preflight
   attributes:

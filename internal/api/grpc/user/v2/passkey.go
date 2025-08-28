@@ -6,12 +6,12 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/object/v2"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	object_pb "github.com/zitadel/zitadel/pkg/grpc/object/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	object_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 func (s *Server) RegisterPasskey(ctx context.Context, req *connect.Request[user.RegisterPasskeyRequest]) (resp *connect.Response[user.RegisterPasskeyResponse], err error) {

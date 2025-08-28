@@ -7,9 +7,9 @@ import (
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 	"github.com/zitadel/oidc/v3/pkg/op"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func (s *Server) ClientCredentialsExchange(ctx context.Context, r *op.ClientRequest[oidc.ClientCredentialsRequest]) (_ *op.Response, err error) {

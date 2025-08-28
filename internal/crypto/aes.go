@@ -8,7 +8,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 var _ EncryptionAlgorithm = (*AESCrypto)(nil)

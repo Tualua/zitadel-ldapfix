@@ -3,12 +3,12 @@ package projection
 import (
 	"testing"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	feature_v1 "github.com/zitadel/zitadel/internal/repository/feature"
-	"github.com/zitadel/zitadel/internal/repository/feature/feature_v2"
-	"github.com/zitadel/zitadel/internal/repository/instance"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	feature_v1 "github.com/Tualua/zitadel-ldapfix/internal/repository/feature"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/feature/feature_v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/instance"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestInstanceFeaturesProjection_reduces(t *testing.T) {

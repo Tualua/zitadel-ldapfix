@@ -6,7 +6,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgconn"
 
-	"github.com/zitadel/zitadel/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
 )
 
 func exec(ctx context.Context, db database.ContextExecuter, stmt string, possibleErrCodes []string, args ...interface{}) error {

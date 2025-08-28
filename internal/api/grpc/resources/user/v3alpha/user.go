@@ -3,12 +3,12 @@ package user
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	resource_object "github.com/zitadel/zitadel/internal/api/grpc/resources/object/v3alpha"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	object "github.com/zitadel/zitadel/pkg/grpc/object/v3alpha"
-	"github.com/zitadel/zitadel/pkg/grpc/resources/user/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	resource_object "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/resources/object/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/resources/user/v3alpha"
 )
 
 func (s *Server) CreateUser(ctx context.Context, req *user.CreateUserRequest) (_ *user.CreateUserResponse, err error) {

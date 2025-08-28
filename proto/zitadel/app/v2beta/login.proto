@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package zitadel.app.v2beta;
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/app/v2beta;app";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta;app";
 
 message LoginVersion {
     oneof version {

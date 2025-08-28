@@ -6,10 +6,10 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
 )
 
 type UserV2WriteModel struct {

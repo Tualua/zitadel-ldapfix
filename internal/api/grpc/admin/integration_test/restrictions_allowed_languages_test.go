@@ -16,11 +16,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	"github.com/zitadel/zitadel/pkg/grpc/text"
-	"github.com/zitadel/zitadel/pkg/grpc/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/text"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user"
 )
 
 func TestServer_Restrictions_AllowedLanguages(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/DATA-DOG/go-sqlmock"
 
-	"github.com/zitadel/zitadel/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
 )
 
 type mockExpectation func(sqlmock.Sqlmock)

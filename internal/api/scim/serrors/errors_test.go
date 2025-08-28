@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/i18n"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestErrorHandler(t *testing.T) {

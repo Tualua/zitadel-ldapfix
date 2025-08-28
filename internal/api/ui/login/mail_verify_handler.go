@@ -9,9 +9,9 @@ import (
 
 	"github.com/zitadel/logging"
 
-	http_mw "github.com/zitadel/zitadel/internal/api/http/middleware"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	http_mw "github.com/Tualua/zitadel-ldapfix/internal/api/http/middleware"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

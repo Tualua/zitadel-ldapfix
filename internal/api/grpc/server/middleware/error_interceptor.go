@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/gerrors"
-	_ "github.com/zitadel/zitadel/internal/statik"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/gerrors"
+	_ "github.com/Tualua/zitadel-ldapfix/internal/statik"
 )
 
 func ErrorHandler() grpc.UnaryServerInterceptor {

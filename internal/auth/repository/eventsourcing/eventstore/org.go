@@ -3,14 +3,14 @@ package eventstore
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	auth_view "github.com/zitadel/zitadel/internal/auth/repository/eventsourcing/view"
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	iam_model "github.com/zitadel/zitadel/internal/iam/model"
-	iam_view_model "github.com/zitadel/zitadel/internal/iam/repository/view/model"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	auth_view "github.com/Tualua/zitadel-ldapfix/internal/auth/repository/eventsourcing/view"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	iam_model "github.com/Tualua/zitadel-ldapfix/internal/iam/model"
+	iam_view_model "github.com/Tualua/zitadel-ldapfix/internal/iam/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 type OrgRepository struct {

@@ -13,9 +13,9 @@ import (
 	"github.com/jackc/pgx/v5/stdlib"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/database/dialect"
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database/dialect"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 func init() {

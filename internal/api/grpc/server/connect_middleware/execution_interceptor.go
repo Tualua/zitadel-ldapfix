@@ -8,10 +8,10 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/execution"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/execution"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 func ExecutionHandler(queries *query.Queries) connect.UnaryInterceptorFunc {

@@ -3,11 +3,11 @@ package view
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/user/model"
-	usr_model "github.com/zitadel/zitadel/internal/user/repository/view/model"
-	"github.com/zitadel/zitadel/internal/view/repository"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	usr_model "github.com/Tualua/zitadel-ldapfix/internal/user/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/view/repository"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func RefreshTokenByID(db *gorm.DB, table, tokenID, instanceID string) (*usr_model.RefreshTokenView, error) {

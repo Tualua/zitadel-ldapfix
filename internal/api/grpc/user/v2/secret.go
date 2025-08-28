@@ -6,8 +6,8 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 func (s *Server) AddSecret(ctx context.Context, req *connect.Request[user.AddSecretRequest]) (*connect.Response[user.AddSecretResponse], error) {

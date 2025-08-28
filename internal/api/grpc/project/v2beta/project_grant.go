@@ -6,10 +6,10 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/query"
-	project_pb "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	project_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
 )
 
 func (s *Server) CreateProjectGrant(ctx context.Context, req *connect.Request[project_pb.CreateProjectGrantRequest]) (*connect.Response[project_pb.CreateProjectGrantResponse], error) {

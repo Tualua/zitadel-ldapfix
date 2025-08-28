@@ -6,11 +6,11 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	filter "github.com/zitadel/zitadel/internal/api/grpc/filter/v2beta"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	filter_pb "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
-	internal_permission "github.com/zitadel/zitadel/pkg/grpc/internal_permission/v2beta"
+	filter "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	filter_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
+	internal_permission "github.com/Tualua/zitadel-ldapfix/pkg/grpc/internal_permission/v2beta"
 )
 
 func (s *Server) ListAdministrators(ctx context.Context, req *connect.Request[internal_permission.ListAdministratorsRequest]) (*connect.Response[internal_permission.ListAdministratorsResponse], error) {

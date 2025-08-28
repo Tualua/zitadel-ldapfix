@@ -6,17 +6,17 @@ import (
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/authn"
-	instance_grpc "github.com/zitadel/zitadel/internal/api/grpc/instance"
-	member_grpc "github.com/zitadel/zitadel/internal/api/grpc/member"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	z_oidc "github.com/zitadel/zitadel/internal/api/oidc"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	instance_pb "github.com/zitadel/zitadel/pkg/grpc/instance"
-	member_pb "github.com/zitadel/zitadel/pkg/grpc/member"
-	system_pb "github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/authn"
+	instance_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/instance"
+	member_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/member"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	z_oidc "github.com/Tualua/zitadel-ldapfix/internal/api/oidc"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	instance_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance"
+	member_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/member"
+	system_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 func CreateInstancePbToSetupInstance(req *system_pb.CreateInstanceRequest, defaultInstance command.InstanceSetup, externalDomain string) *command.InstanceSetup {

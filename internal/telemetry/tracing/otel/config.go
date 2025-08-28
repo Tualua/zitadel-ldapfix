@@ -8,8 +8,8 @@ import (
 	sdk_trace "go.opentelemetry.io/otel/sdk/trace"
 	api_trace "go.opentelemetry.io/otel/trace"
 
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type Config struct {

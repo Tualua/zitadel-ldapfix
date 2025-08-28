@@ -4,10 +4,10 @@ import (
 	"github.com/muhlemmer/gu"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/query"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
 )
 
 func CreateOIDCAppRequestToDomain(name, projectID string, req *app.CreateOIDCApplicationRequest) (*domain.OIDCApp, error) {

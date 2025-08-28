@@ -3,8 +3,8 @@ package user
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/repository/metadata"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/metadata"
 )
 
 const (

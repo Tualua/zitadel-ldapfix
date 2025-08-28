@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
 )
 
 type LoginPolicy struct {

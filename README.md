@@ -4,12 +4,12 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/zitadel/zitadel/blob/main/LICENSE" alt="License">
+    <a href="https://github.com/Tualua/zitadel-ldapfix/blob/main/LICENSE" alt="License">
         <img src="https://badgen.net/github/license/zitadel/zitadel/" /></a>
     <a href="https://bestpractices.coreinfrastructure.org/projects/6662"><img src="https://bestpractices.coreinfrastructure.org/projects/6662/badge"></a>
     <a href="https://github.com/semantic-release/semantic-release" alt="semantic-release">
         <img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" /></a>
-    <a href="https://github.com/zitadel/zitadel/actions" alt="ZITADEL Release">
+    <a href="https://github.com/Tualua/zitadel-ldapfix/actions" alt="ZITADEL Release">
         <img alt="GitHub Workflow Status (with event)" src="https://img.shields.io/github/actions/workflow/status/zitadel/zitadel/build.yml?event=pull_request"></a>
     <a href="https://zitadel.com/docs/support/software-release-cycles-support" alt="Release">
         <img src="https://badgen.net/github/release/zitadel/zitadel/stable" /></a>
@@ -17,7 +17,7 @@
         <img src="https://goreportcard.com/badge/github.com/zitadel/zitadel" /></a>
     <a href="https://codecov.io/gh/zitadel/zitadel" alt="Code Coverage">
         <img src="https://codecov.io/gh/zitadel/zitadel/branch/main/graph/badge.svg" /></a>
-    <a href="https://github.com/zitadel/zitadel/graphs/contributors" alt="Release">
+    <a href="https://github.com/Tualua/zitadel-ldapfix/graphs/contributors" alt="Release">
         <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/zitadel/zitadel"></a>
     <a href="https://discord.gg/YgjEuJzZ3x" alt="Discord Chat">
         <img src="https://badgen.net/discord/online-members/YgjEuJzZ3x" /></a>
@@ -164,7 +164,7 @@ Join our [Discord Chat](https://zitadel.com/chat) to get help.
 
 ## Contributors
 
-<a href="https://github.com/zitadel/zitadel/graphs/contributors">
+<a href="https://github.com/Tualua/zitadel-ldapfix/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=zitadel/zitadel" />
 </a>
 

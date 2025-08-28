@@ -7,10 +7,10 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/app/v2beta/convert"
-	filter "github.com/zitadel/zitadel/internal/api/grpc/filter/v2"
-	"github.com/zitadel/zitadel/internal/query"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/app/v2beta/convert"
+	filter "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
 )
 
 func (s *Server) GetApplication(ctx context.Context, req *connect.Request[app.GetApplicationRequest]) (*connect.Response[app.GetApplicationResponse], error) {

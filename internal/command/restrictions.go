@@ -5,13 +5,13 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/command/preparation"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/i18n"
-	"github.com/zitadel/zitadel/internal/repository/restrictions"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/command/preparation"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/restrictions"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type SetRestrictions struct {

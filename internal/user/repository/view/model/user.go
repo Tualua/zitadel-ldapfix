@@ -7,14 +7,14 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	org_model "github.com/zitadel/zitadel/internal/org/model"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/user/model"
-	es_model "github.com/zitadel/zitadel/internal/user/repository/eventsourcing/model"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	org_model "github.com/Tualua/zitadel-ldapfix/internal/org/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	es_model "github.com/Tualua/zitadel-ldapfix/internal/user/repository/eventsourcing/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

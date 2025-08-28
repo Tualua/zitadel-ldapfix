@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/integration"
-	action "github.com/zitadel/zitadel/pkg/grpc/action/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	action "github.com/Tualua/zitadel-ldapfix/pkg/grpc/action/v2beta"
 )
 
 func TestServer_CreateTarget(t *testing.T) {

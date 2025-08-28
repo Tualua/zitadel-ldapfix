@@ -6,8 +6,8 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	webkey "github.com/zitadel/zitadel/pkg/grpc/webkey/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	webkey "github.com/Tualua/zitadel-ldapfix/pkg/grpc/webkey/v2beta"
 )
 
 func (s *Server) CreateWebKey(ctx context.Context, req *connect.Request[webkey.CreateWebKeyRequest]) (_ *connect.Response[webkey.CreateWebKeyResponse], err error) {

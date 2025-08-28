@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	http_util "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestConfig_serverFromContext(t *testing.T) {

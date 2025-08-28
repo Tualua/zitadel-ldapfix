@@ -11,11 +11,11 @@ import (
 	"github.com/zitadel/logging"
 	"golang.org/x/text/language"
 
-	http_util "github.com/zitadel/zitadel/internal/api/http"
-	zhttp_middleware "github.com/zitadel/zitadel/internal/api/http/middleware"
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/i18n"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	zhttp_middleware "github.com/Tualua/zitadel-ldapfix/internal/api/http/middleware"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type scimErrorType string

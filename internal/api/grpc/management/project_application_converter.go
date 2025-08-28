@@ -6,14 +6,14 @@ import (
 
 	"github.com/muhlemmer/gu"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	authn_grpc "github.com/zitadel/zitadel/internal/api/grpc/authn"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	app_grpc "github.com/zitadel/zitadel/internal/api/grpc/project"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/query"
-	mgmt_pb "github.com/zitadel/zitadel/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	authn_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/authn"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	app_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/project"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	mgmt_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
 )
 
 func ListAppsRequestToModel(req *mgmt_pb.ListAppsRequest) (*query.AppSearchQueries, error) {

@@ -6,10 +6,10 @@ import (
 
 	"github.com/zitadel/logging"
 
-	es_models "github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/user/model"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	es_models "github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

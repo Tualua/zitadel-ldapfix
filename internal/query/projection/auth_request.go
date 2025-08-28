@@ -3,12 +3,12 @@ package projection
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	old_handler "github.com/zitadel/zitadel/internal/eventstore/handler"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	"github.com/zitadel/zitadel/internal/repository/authrequest"
-	"github.com/zitadel/zitadel/internal/repository/instance"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	old_handler "github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/authrequest"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/instance"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

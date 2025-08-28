@@ -14,10 +14,10 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	objpb "github.com/zitadel/zitadel/pkg/grpc/object"
-	"github.com/zitadel/zitadel/pkg/grpc/object/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/session/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	objpb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/session/v2"
 )
 
 func TestServer_GetSession(t *testing.T) {

@@ -8,8 +8,8 @@ import (
 	"github.com/muhlemmer/gu"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 func Test_patchMachineUserToCommand(t *testing.T) {

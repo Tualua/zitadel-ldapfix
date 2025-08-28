@@ -15,9 +15,9 @@ import (
 	"github.com/crewjam/saml/samlsp"
 	"golang.org/x/text/encoding/ianaindex"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/idp"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 var _ idp.Provider = (*Provider)(nil)

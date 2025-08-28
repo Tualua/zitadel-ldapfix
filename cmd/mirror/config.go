@@ -8,15 +8,15 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/cmd/hooks"
-	"github.com/zitadel/zitadel/internal/actions"
-	internal_authz "github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/config/hook"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/id"
-	metrics "github.com/zitadel/zitadel/internal/telemetry/metrics/config"
+	"github.com/Tualua/zitadel-ldapfix/cmd/hooks"
+	"github.com/Tualua/zitadel-ldapfix/internal/actions"
+	internal_authz "github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/hook"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/id"
+	metrics "github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics/config"
 )
 
 type Migration struct {

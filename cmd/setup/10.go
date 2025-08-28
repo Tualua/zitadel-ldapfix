@@ -9,8 +9,8 @@ import (
 	"github.com/cockroachdb/cockroach-go/v2/crdb"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 var (

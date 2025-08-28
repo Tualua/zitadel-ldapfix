@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/integration"
-	action "github.com/zitadel/zitadel/pkg/grpc/action/v2beta"
-	filter "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	action "github.com/Tualua/zitadel-ldapfix/pkg/grpc/action/v2beta"
+	filter "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
 )
 
 func TestServer_GetTarget(t *testing.T) {

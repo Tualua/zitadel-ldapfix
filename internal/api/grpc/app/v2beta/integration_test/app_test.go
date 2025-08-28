@@ -13,9 +13,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
-	org "github.com/zitadel/zitadel/pkg/grpc/org/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
+	org "github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2beta"
 )
 
 func TestCreateApplication(t *testing.T) {

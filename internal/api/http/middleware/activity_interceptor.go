@@ -3,7 +3,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/zitadel/zitadel/internal/api/info"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/info"
 )
 
 func ActivityHandler(next http.Handler) http.Handler {

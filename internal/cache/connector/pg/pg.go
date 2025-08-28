@@ -12,8 +12,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 
-	"github.com/zitadel/zitadel/internal/cache"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 var (

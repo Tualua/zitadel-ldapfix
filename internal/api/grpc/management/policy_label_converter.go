@@ -1,9 +1,9 @@
 package management
 
 import (
-	"github.com/zitadel/zitadel/internal/domain"
-	mgmt_pb "github.com/zitadel/zitadel/pkg/grpc/management"
-	policy_pb "github.com/zitadel/zitadel/pkg/grpc/policy"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	mgmt_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	policy_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/policy"
 )
 
 func AddLabelPolicyToDomain(p *mgmt_pb.AddCustomLabelPolicyRequest) *domain.LabelPolicy {

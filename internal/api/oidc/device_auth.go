@@ -9,8 +9,8 @@ import (
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 	"github.com/zitadel/oidc/v3/pkg/op"
 
-	"github.com/zitadel/zitadel/internal/api/ui/login"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/ui/login"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 const (

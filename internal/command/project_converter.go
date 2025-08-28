@@ -3,7 +3,7 @@ package command
 import (
 	"github.com/muhlemmer/gu"
 
-	"github.com/zitadel/zitadel/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 func projectWriteModelToProject(writeModel *ProjectWriteModel) *domain.Project {

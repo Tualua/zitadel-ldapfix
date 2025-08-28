@@ -26,9 +26,9 @@ import (
 	"github.com/zitadel/saml/pkg/provider/xml/md"
 	"golang.org/x/crypto/bcrypt"
 
-	http_util "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 var (

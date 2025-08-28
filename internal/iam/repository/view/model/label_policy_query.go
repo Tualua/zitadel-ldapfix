@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/zitadel/zitadel/internal/domain"
-	iam_model "github.com/zitadel/zitadel/internal/iam/model"
-	"github.com/zitadel/zitadel/internal/view/repository"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	iam_model "github.com/Tualua/zitadel-ldapfix/internal/iam/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/view/repository"
 )
 
 type LabelPolicySearchQuery iam_model.LabelPolicySearchQuery

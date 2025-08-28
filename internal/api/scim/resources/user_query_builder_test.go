@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/api/scim/metadata"
-	"github.com/zitadel/zitadel/internal/api/scim/resources/filter"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/test"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/metadata"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources/filter"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/test"
 )
 
 func Test_buildMetadataQuery(t *testing.T) {

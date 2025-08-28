@@ -7,11 +7,11 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	old_es "github.com/zitadel/zitadel/internal/eventstore/repository/sql"
-	new_es "github.com/zitadel/zitadel/internal/eventstore/v3"
-	"github.com/zitadel/zitadel/internal/migration"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	old_es "github.com/Tualua/zitadel-ldapfix/internal/eventstore/repository/sql"
+	new_es "github.com/Tualua/zitadel-ldapfix/internal/eventstore/v3"
+	"github.com/Tualua/zitadel-ldapfix/internal/migration"
 )
 
 func NewCleanup() *cobra.Command {

@@ -6,8 +6,8 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/api/scim/serrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/serrors"
 )
 
 // Path The root ast node for the path grammar

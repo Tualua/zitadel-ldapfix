@@ -8,9 +8,9 @@ import (
 
 	"connectrpc.com/connect"
 
-	"github.com/zitadel/zitadel/internal/activity"
-	"github.com/zitadel/zitadel/internal/api/grpc/gerrors"
-	ainfo "github.com/zitadel/zitadel/internal/api/info"
+	"github.com/Tualua/zitadel-ldapfix/internal/activity"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/gerrors"
+	ainfo "github.com/Tualua/zitadel-ldapfix/internal/api/info"
 )
 
 func ActivityInterceptor() connect.UnaryInterceptorFunc {

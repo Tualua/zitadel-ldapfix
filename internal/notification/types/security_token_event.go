@@ -3,9 +3,9 @@ package types
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/notification/channels/set"
-	"github.com/zitadel/zitadel/internal/notification/messages"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/set"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/messages"
 )
 
 func handleSecurityTokenEvent(

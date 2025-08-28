@@ -7,8 +7,8 @@ import (
 	"github.com/go-webauthn/webauthn/protocol"
 	"github.com/go-webauthn/webauthn/webauthn"
 
-	"github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 func WebAuthNsToCredentials(ctx context.Context, webAuthNs []*domain.WebAuthNToken, rpID string) []webauthn.Credential {

@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 // Provider is the minimal implementation for a 3rd party authentication provider

@@ -15,12 +15,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
-	v2beta_object "github.com/zitadel/zitadel/pkg/grpc/object/v2beta"
-	v2beta_org "github.com/zitadel/zitadel/pkg/grpc/org/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
-	user_v2beta "github.com/zitadel/zitadel/pkg/grpc/user/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	v2beta_object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2beta"
+	v2beta_org "github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
+	user_v2beta "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2beta"
 )
 
 var (

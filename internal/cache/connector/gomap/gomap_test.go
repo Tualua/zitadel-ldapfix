@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
 )
 
 type testIndex int

@@ -6,10 +6,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/zitadel/zitadel/cmd/initialise"
-	"github.com/zitadel/zitadel/cmd/key"
-	"github.com/zitadel/zitadel/cmd/setup"
-	"github.com/zitadel/zitadel/cmd/start"
+	"github.com/Tualua/zitadel-ldapfix/cmd/initialise"
+	"github.com/Tualua/zitadel-ldapfix/cmd/key"
+	"github.com/Tualua/zitadel-ldapfix/cmd/setup"
+	"github.com/Tualua/zitadel-ldapfix/cmd/start"
 )
 
 func New() *cobra.Command {

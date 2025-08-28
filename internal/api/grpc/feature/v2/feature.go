@@ -7,8 +7,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/object/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/feature/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/feature/v2"
 )
 
 func (s *Server) SetSystemFeatures(ctx context.Context, req *connect.Request[feature.SetSystemFeaturesRequest]) (_ *connect.Response[feature.SetSystemFeaturesResponse], err error) {

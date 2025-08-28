@@ -7,7 +7,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/muhlemmer/httpforwarded"
 
-	http_util "github.com/zitadel/zitadel/internal/api/http"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
 )
 
 func WithOrigin(enforceHttps bool, http1Header, http2Header string, instanceHostHeaders, publicDomainHeaders []string) mux.MiddlewareFunc {

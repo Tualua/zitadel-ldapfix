@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/app"
-	oidc_pb "github.com/zitadel/zitadel/pkg/grpc/oidc/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/app"
+	oidc_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/oidc/v2"
 )
 
 var (

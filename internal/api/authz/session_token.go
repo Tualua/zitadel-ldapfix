@@ -5,9 +5,9 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

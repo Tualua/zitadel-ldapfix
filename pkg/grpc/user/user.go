@@ -1,6 +1,6 @@
 package user
 
-import "github.com/zitadel/zitadel/internal/domain"
+import "github.com/Tualua/zitadel-ldapfix/internal/domain"
 
 type SearchQuery_ResourceOwner struct {
 	ResourceOwner *ResourceOwnerQuery

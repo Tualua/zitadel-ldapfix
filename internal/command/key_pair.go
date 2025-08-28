@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/repository/keypair"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/keypair"
 )
 
 func (c *Commands) GenerateSAMLCACertificate(ctx context.Context, algorithm string) error {

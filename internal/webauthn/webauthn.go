@@ -10,9 +10,9 @@ import (
 	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type Config struct {

@@ -5,8 +5,8 @@ import (
 
 	"connectrpc.com/connect"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/object/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 func (s *Server) AddOTPSMS(ctx context.Context, req *connect.Request[user.AddOTPSMSRequest]) (*connect.Response[user.AddOTPSMSResponse], error) {

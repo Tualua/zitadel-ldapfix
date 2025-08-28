@@ -9,9 +9,9 @@ import (
 	"github.com/alecthomas/participle/v2/lexer"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/api/scim/serrors"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/serrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 // Filter The scim v2 filter

@@ -9,10 +9,10 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/zitadel/zitadel/internal/query/projection"
-	"github.com/zitadel/zitadel/internal/repository/quota"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/query/projection"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/quota"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 var (

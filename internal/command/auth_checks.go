@@ -3,8 +3,8 @@ package command
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func checkExplicitProjectPermission(ctx context.Context, grantID, projectID string) error {

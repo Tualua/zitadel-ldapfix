@@ -7,14 +7,14 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/api/grpc/server"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	user "github.com/zitadel/zitadel/pkg/grpc/user/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2beta/userconnect"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/server"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	user "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2beta/userconnect"
 )
 
 var _ userconnect.UserServiceHandler = (*Server)(nil)

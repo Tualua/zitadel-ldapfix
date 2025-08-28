@@ -3,9 +3,9 @@ package admin
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	object_pb "github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	object_pb "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
 )
 
 func (s *Server) ListMilestones(ctx context.Context, req *admin.ListMilestonesRequest) (*admin.ListMilestonesResponse, error) {

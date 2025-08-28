@@ -3,8 +3,8 @@ package authz
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func CheckPermission(ctx context.Context, resolver MembershipsResolver, systemUserRoleMapping []RoleMapping, roleMappings []RoleMapping, permission, orgID, resourceID string) (err error) {

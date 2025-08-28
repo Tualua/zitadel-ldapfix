@@ -3,11 +3,11 @@ package user
 import (
 	"context"
 
-	resource_object "github.com/zitadel/zitadel/internal/api/grpc/resources/object/v3alpha"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/domain"
-	object "github.com/zitadel/zitadel/pkg/grpc/object/v3alpha"
-	user "github.com/zitadel/zitadel/pkg/grpc/resources/user/v3alpha"
+	resource_object "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/resources/object/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v3alpha"
+	user "github.com/Tualua/zitadel-ldapfix/pkg/grpc/resources/user/v3alpha"
 )
 
 func (s *Server) SetContactPhone(ctx context.Context, req *user.SetContactPhoneRequest) (_ *user.SetContactPhoneResponse, err error) {

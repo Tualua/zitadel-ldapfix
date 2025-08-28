@@ -7,9 +7,9 @@ import (
 
 	"github.com/zitadel/logging"
 
-	zhttp "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/api/http/middleware"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	zhttp "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/http/middleware"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

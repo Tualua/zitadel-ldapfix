@@ -1,10 +1,10 @@
 package config
 
 import (
-	"github.com/zitadel/zitadel/internal/telemetry/tracing/google"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing/log"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing/otel"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing/google"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing/log"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing/otel"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type Config struct {

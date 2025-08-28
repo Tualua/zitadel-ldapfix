@@ -10,15 +10,15 @@ import (
 	"github.com/lucasb-eyer/go-colorful"
 	"github.com/muesli/gamut"
 
-	admin_view "github.com/zitadel/zitadel/internal/admin/repository/eventsourcing/view"
-	"github.com/zitadel/zitadel/internal/api/ui/login"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	iam_model "github.com/zitadel/zitadel/internal/iam/repository/view/model"
-	"github.com/zitadel/zitadel/internal/repository/instance"
-	"github.com/zitadel/zitadel/internal/repository/org"
-	"github.com/zitadel/zitadel/internal/static"
+	admin_view "github.com/Tualua/zitadel-ldapfix/internal/admin/repository/eventsourcing/view"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/ui/login"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	iam_model "github.com/Tualua/zitadel-ldapfix/internal/iam/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/instance"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/org"
+	"github.com/Tualua/zitadel-ldapfix/internal/static"
 )
 
 const (

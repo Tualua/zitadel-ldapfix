@@ -1,10 +1,10 @@
 package model
 
 import (
-	"github.com/zitadel/zitadel/internal/domain"
-	es_models "github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	iam_model "github.com/zitadel/zitadel/internal/iam/model"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	es_models "github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	iam_model "github.com/Tualua/zitadel-ldapfix/internal/iam/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type Org struct {

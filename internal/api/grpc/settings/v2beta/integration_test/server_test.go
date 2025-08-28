@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	settings "github.com/zitadel/zitadel/pkg/grpc/settings/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	settings "github.com/Tualua/zitadel-ldapfix/pkg/grpc/settings/v2beta"
 )
 
 var (

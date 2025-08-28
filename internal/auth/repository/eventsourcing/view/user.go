@@ -5,11 +5,11 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/query"
-	usr_model "github.com/zitadel/zitadel/internal/user/model"
-	"github.com/zitadel/zitadel/internal/user/repository/view"
-	"github.com/zitadel/zitadel/internal/user/repository/view/model"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	usr_model "github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/repository/view"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

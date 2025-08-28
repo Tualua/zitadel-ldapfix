@@ -3,9 +3,9 @@ package auth
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	policy_grpc "github.com/zitadel/zitadel/internal/api/grpc/policy"
-	auth_pb "github.com/zitadel/zitadel/pkg/grpc/auth"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	policy_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/policy"
+	auth_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/auth"
 )
 
 func (s *Server) GetMyPasswordComplexityPolicy(ctx context.Context, _ *auth_pb.GetMyPasswordComplexityPolicyRequest) (*auth_pb.GetMyPasswordComplexityPolicyResponse, error) {

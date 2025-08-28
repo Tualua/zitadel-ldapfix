@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	http_utils "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/domain"
+	http_utils "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 func (notify Notify) SendOTPSMSCode(ctx context.Context, code string, expiry time.Duration) error {

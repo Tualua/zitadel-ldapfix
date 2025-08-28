@@ -38,7 +38,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/zitadel/zitadel/pkg/actions"
+	"github.com/Tualua/zitadel-ldapfix/pkg/actions"
 )
 
 const signingKey = "somekey"

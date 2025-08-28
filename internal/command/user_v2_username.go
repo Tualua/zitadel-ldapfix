@@ -3,9 +3,9 @@ package command
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func (c *Commands) changeUsername(ctx context.Context, cmds []eventstore.Command, wm *UserV2WriteModel, userName string) ([]eventstore.Command, error) {

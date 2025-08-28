@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
 )
 
 func TestCreateAPIApplicationRequestToDomain(t *testing.T) {

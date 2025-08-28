@@ -12,11 +12,11 @@ import (
 
 	"github.com/zitadel/logging"
 
-	scim_config "github.com/zitadel/zitadel/internal/api/scim/config"
-	"github.com/zitadel/zitadel/internal/api/scim/metadata"
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/api/scim/serrors"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	scim_config "github.com/Tualua/zitadel-ldapfix/internal/api/scim/config"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/metadata"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/serrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type BulkHandler struct {

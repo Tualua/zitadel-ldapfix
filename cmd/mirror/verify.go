@@ -11,9 +11,9 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	cryptoDatabase "github.com/zitadel/zitadel/internal/crypto/database"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/query/projection"
+	cryptoDatabase "github.com/Tualua/zitadel-ldapfix/internal/crypto/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/query/projection"
 )
 
 func verifyCmd() *cobra.Command {

@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/feature"
+	"github.com/Tualua/zitadel-ldapfix/internal/feature"
 )
 
 func Test_Instance(t *testing.T) {

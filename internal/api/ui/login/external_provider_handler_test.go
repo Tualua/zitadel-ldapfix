@@ -3,8 +3,8 @@ package login
 import (
 	"testing"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 func Test_hasEmailChanged(t *testing.T) {

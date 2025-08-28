@@ -10,10 +10,10 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/notification/channels"
-	"github.com/zitadel/zitadel/internal/notification/messages"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/messages"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func InitChannel(ctx context.Context, cfg Config) (channels.NotificationChannel, error) {

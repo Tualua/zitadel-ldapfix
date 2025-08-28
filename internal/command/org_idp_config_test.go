@@ -8,16 +8,16 @@ import (
 	"go.uber.org/mock/gomock"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/id"
-	id_mock "github.com/zitadel/zitadel/internal/id/mock"
-	"github.com/zitadel/zitadel/internal/repository/idpconfig"
-	"github.com/zitadel/zitadel/internal/repository/org"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/id"
+	id_mock "github.com/Tualua/zitadel-ldapfix/internal/id/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/idpconfig"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/org"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestCommandSide_AddIDPConfig(t *testing.T) {

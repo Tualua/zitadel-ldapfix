@@ -6,7 +6,7 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	instance "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta"
+	instance "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta"
 )
 
 func (s *Server) DeleteInstance(ctx context.Context, request *connect.Request[instance.DeleteInstanceRequest]) (*connect.Response[instance.DeleteInstanceResponse], error) {

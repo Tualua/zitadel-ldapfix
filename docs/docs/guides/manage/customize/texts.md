@@ -58,7 +58,7 @@ ZITADEL is available in the following languages
 A language is displayed based on your agent's language header.
 If a users language header doesn't match any of the supported or [restricted](#restrict-languages) languages, the instances default language will be used.
 
-If you need support for a specific language we highly encourage you to [contribute translation files](https://github.com/zitadel/zitadel/blob/main/CONTRIBUTING.md) for the missing language.
+If you need support for a specific language we highly encourage you to [contribute translation files](https://github.com/Tualua/zitadel-ldapfix/blob/main/CONTRIBUTING.md) for the missing language.
 
 ## Restrict Languages
 

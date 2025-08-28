@@ -4,9 +4,9 @@ import (
 	"context"
 	"io"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 // RequestPasswordReset generates a code

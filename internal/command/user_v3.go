@@ -5,11 +5,11 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/domain"
-	domain_schema "github.com/zitadel/zitadel/internal/domain/schema"
-	"github.com/zitadel/zitadel/internal/repository/user/schemauser"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	domain_schema "github.com/Tualua/zitadel-ldapfix/internal/domain/schema"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user/schemauser"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type CreateSchemaUser struct {

@@ -7,12 +7,12 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	zchannels "github.com/zitadel/zitadel/internal/notification/channels"
-	"github.com/zitadel/zitadel/internal/notification/messages"
-	"github.com/zitadel/zitadel/internal/notification/templates"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	zchannels "github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/messages"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/templates"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func generateEmail(

@@ -6,7 +6,7 @@ import (
 
 	"github.com/muhlemmer/gu"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 // RelaxedBool a bool which is more relaxed when it comes to json (un)marshaling.

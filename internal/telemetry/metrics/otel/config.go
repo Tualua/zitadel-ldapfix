@@ -1,7 +1,7 @@
 package otel
 
 import (
-	"github.com/zitadel/zitadel/internal/telemetry/metrics"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics"
 )
 
 type Config struct {

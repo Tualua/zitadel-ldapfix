@@ -7,7 +7,7 @@ import "google/protobuf/timestamp.proto";
 
 package zitadel.metadata.v2beta;
 
-option go_package ="github.com/zitadel/zitadel/pkg/grpc/metadata/v2beta";
+option go_package ="github.com/Tualua/zitadel-ldapfix/pkg/grpc/metadata/v2beta";
 
 message Metadata {
   google.protobuf.Timestamp creation_date = 1 [

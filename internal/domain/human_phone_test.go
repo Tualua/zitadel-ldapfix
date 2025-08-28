@@ -3,7 +3,7 @@ package domain
 import (
 	"testing"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestFormatPhoneNumber(t *testing.T) {

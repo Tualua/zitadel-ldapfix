@@ -3,10 +3,10 @@ package admin
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
 )
 
 func (s *Server) SetRestrictions(ctx context.Context, req *admin.SetRestrictionsRequest) (*admin.SetRestrictionsResponse, error) {

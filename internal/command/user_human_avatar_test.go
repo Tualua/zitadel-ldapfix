@@ -9,12 +9,12 @@ import (
 	"go.uber.org/mock/gomock"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/static"
-	"github.com/zitadel/zitadel/internal/static/mock"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/static"
+	"github.com/Tualua/zitadel-ldapfix/internal/static/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestCommandSide_AddHumanAvatar(t *testing.T) {

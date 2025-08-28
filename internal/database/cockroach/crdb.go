@@ -13,7 +13,7 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database/dialect"
+	"github.com/Tualua/zitadel-ldapfix/internal/database/dialect"
 )
 
 func init() {

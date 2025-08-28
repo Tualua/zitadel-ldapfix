@@ -3,11 +3,11 @@ package admin
 import (
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	obj_grpc "github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	admin_pb "github.com/zitadel/zitadel/pkg/grpc/admin"
-	settings_pb "github.com/zitadel/zitadel/pkg/grpc/settings"
+	obj_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	admin_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	settings_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/settings"
 )
 
 func OIDCSettingsToPb(config *query.OIDCSettings) *settings_pb.OIDCSettings {

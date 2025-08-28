@@ -3,7 +3,7 @@ package readmodel
 import (
 	"database/sql"
 
-	"github.com/zitadel/zitadel/internal/v2/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/eventstore"
 )
 
 type QueryOpt func(opts []eventstore.QueryOpt) []eventstore.QueryOpt

@@ -3,11 +3,11 @@ package view
 import (
 	"github.com/jinzhu/gorm"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	iam_model "github.com/zitadel/zitadel/internal/iam/model"
-	"github.com/zitadel/zitadel/internal/iam/repository/view/model"
-	"github.com/zitadel/zitadel/internal/view/repository"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	iam_model "github.com/Tualua/zitadel-ldapfix/internal/iam/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/iam/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/view/repository"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func GetStylingByAggregateIDAndState(db *gorm.DB, table, aggregateID, instanceID string, state int32) (*model.LabelPolicyView, error) {

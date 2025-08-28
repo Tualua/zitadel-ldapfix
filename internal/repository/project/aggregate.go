@@ -3,7 +3,7 @@ package project
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 const (

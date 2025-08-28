@@ -6,11 +6,11 @@ import (
 	_ "embed"
 	"sync"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	"github.com/zitadel/zitadel/internal/query/projection"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/query/projection"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 // introspectionTriggerHandlers slice can only be created after zitadel

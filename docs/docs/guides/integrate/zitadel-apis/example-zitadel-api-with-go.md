@@ -72,7 +72,7 @@ If you encountered an error (e.g. `code = PermissionDenied desc = No matching pe
 ensure your service user has the required permissions by assigning the `ORG_OWNER` or `ORG_OWNER_VIEWER` role
 and check the mentioned [guides](#prerequisites) at the beginning.
 
-If you've run into any other problem, don't hesitate to contact us or raise an issue on [ZITADEL](https://github.com/zitadel/zitadel/issues) or in the [SDK](https://github.com/zitadel/zitadel-go/issues).
+If you've run into any other problem, don't hesitate to contact us or raise an issue on [ZITADEL](https://github.com/Tualua/zitadel-ldapfix/issues) or in the [SDK](https://github.com/zitadel/zitadel-go/issues).
 
 ### Whats next?
 

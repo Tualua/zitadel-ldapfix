@@ -5,9 +5,9 @@ import (
 	"slices"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	admin_pb "github.com/zitadel/zitadel/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	admin_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
 )
 
 const (

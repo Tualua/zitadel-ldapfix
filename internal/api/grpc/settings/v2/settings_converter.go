@@ -5,12 +5,12 @@ import (
 
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	idp_api "github.com/zitadel/zitadel/internal/api/grpc/idp/v2"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	idp_pb "github.com/zitadel/zitadel/pkg/grpc/idp/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/settings/v2"
+	idp_api "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/idp/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	idp_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/idp/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/settings/v2"
 )
 
 func loginSettingsToPb(current *query.LoginPolicy) *settings.LoginSettings {

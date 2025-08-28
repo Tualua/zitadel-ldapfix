@@ -5,11 +5,11 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	text_grpc "github.com/zitadel/zitadel/internal/api/grpc/text"
-	"github.com/zitadel/zitadel/internal/domain"
-	mgmt_pb "github.com/zitadel/zitadel/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	text_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/text"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	mgmt_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
 )
 
 func (s *Server) GetCustomInitMessageText(ctx context.Context, req *mgmt_pb.GetCustomInitMessageTextRequest) (*mgmt_pb.GetCustomInitMessageTextResponse, error) {

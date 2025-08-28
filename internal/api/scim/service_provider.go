@@ -6,12 +6,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	zhttp "github.com/zitadel/zitadel/internal/api/http"
-	scim_config "github.com/zitadel/zitadel/internal/api/scim/config"
-	sresources "github.com/zitadel/zitadel/internal/api/scim/resources"
-	sschemas "github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	zhttp "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	scim_config "github.com/Tualua/zitadel-ldapfix/internal/api/scim/config"
+	sresources "github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources"
+	sschemas "github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type serviceProviderHandler struct {

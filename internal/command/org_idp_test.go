@@ -11,14 +11,14 @@ import (
 	openid "github.com/zitadel/oidc/v3/pkg/oidc"
 	"go.uber.org/mock/gomock"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/id"
-	id_mock "github.com/zitadel/zitadel/internal/id/mock"
-	"github.com/zitadel/zitadel/internal/repository/idp"
-	"github.com/zitadel/zitadel/internal/repository/org"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/id"
+	id_mock "github.com/Tualua/zitadel-ldapfix/internal/id/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/idp"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/org"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestCommandSide_AddOrgGenericOAuthProvider(t *testing.T) {

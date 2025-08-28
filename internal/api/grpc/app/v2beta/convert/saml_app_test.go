@@ -9,10 +9,10 @@ import (
 	"github.com/muhlemmer/gu"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/query"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
 )
 
 func samlMetadataGen(entityID string) []byte {

@@ -5,10 +5,10 @@ import (
 
 	"connectrpc.com/connect"
 
-	object "github.com/zitadel/zitadel/internal/api/grpc/object/v2beta"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	user "github.com/zitadel/zitadel/pkg/grpc/user/v2beta"
+	object "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	user "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2beta"
 )
 
 func (s *Server) RegisterU2F(ctx context.Context, req *connect.Request[user.RegisterU2FRequest]) (*connect.Response[user.RegisterU2FResponse], error) {

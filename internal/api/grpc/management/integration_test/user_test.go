@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	"github.com/zitadel/zitadel/pkg/grpc/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user"
 )
 
-// TestImport_and_Get reproduces https://github.com/zitadel/zitadel/issues/5808
+// TestImport_and_Get reproduces https://github.com/Tualua/zitadel-ldapfix/issues/5808
 // which led to consistency issues due the call timestamp not being
 // updated after a bulk Trigger.
 // This test Imports a user and directly tries to Get it, 100 times in a loop.

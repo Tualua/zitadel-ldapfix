@@ -14,10 +14,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	filter "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
-	instance "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	filter "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
+	instance "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2"
 )
 
 func TestGetInstance(t *testing.T) {

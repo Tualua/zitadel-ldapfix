@@ -7,13 +7,13 @@ import (
 	"github.com/muhlemmer/gu"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/filter/v2"
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
 )
 
 func AppToPb(query_app *query.App) *app.Application {

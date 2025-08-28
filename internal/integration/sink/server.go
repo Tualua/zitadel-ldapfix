@@ -25,14 +25,14 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/idp/providers/azuread"
-	"github.com/zitadel/zitadel/internal/idp/providers/jwt"
-	"github.com/zitadel/zitadel/internal/idp/providers/ldap"
-	"github.com/zitadel/zitadel/internal/idp/providers/oauth"
-	openid "github.com/zitadel/zitadel/internal/idp/providers/oidc"
-	"github.com/zitadel/zitadel/internal/idp/providers/saml"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/azuread"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/jwt"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/ldap"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/oauth"
+	openid "github.com/Tualua/zitadel-ldapfix/internal/idp/providers/oidc"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/saml"
 )
 
 const (

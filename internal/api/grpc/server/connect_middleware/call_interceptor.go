@@ -5,7 +5,7 @@ import (
 
 	"connectrpc.com/connect"
 
-	"github.com/zitadel/zitadel/internal/api/call"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/call"
 )
 
 func CallDurationHandler() connect.UnaryInterceptorFunc {

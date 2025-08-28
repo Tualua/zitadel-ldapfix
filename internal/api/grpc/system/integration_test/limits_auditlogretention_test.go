@@ -14,11 +14,11 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
-	"github.com/zitadel/zitadel/pkg/grpc/auth"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	"github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/auth"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 func TestServer_Limits_AuditLogRetention(t *testing.T) {

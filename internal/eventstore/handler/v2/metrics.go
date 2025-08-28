@@ -6,7 +6,7 @@ import (
 	"github.com/zitadel/logging"
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/zitadel/zitadel/internal/telemetry/metrics"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics"
 )
 
 const (

@@ -13,7 +13,7 @@ We will give them a high priority and figure them out.
 
 We also appreciate all your other ideas, thoughts and feedback and will take care of them as soon as possible.
 We love to discuss in an open space using [GitHub issues](https://github.com/zitadel/typescript/issues),
-[GitHub discussions in the core repo](https://github.com/zitadel/zitadel/discussions)
+[GitHub discussions in the core repo](https://github.com/Tualua/zitadel-ldapfix/discussions)
 or in our [chat on Discord](https://zitadel.com/chat).
 For private discussions,
 you have [more contact options on our Website](https://zitadel.com/contact).
@@ -21,16 +21,16 @@ you have [more contact options on our Website](https://zitadel.com/contact).
 ## Pull Requests
 
 The repository zitadel/typescript is a read-only mirror of the git subtree at zitadel/zitadel/login.
-To submit changes, please open a Pull Request [in the zitadel/zitadel repository](https://github.com/zitadel/zitadel/compare).
+To submit changes, please open a Pull Request [in the zitadel/zitadel repository](https://github.com/Tualua/zitadel-ldapfix/compare).
 
 If you already made changes based on the zitadel/typescript repository, these changes are not lost.
 Submitting them to the main repository is easy:
 
-1. [Fork zitadel/zitadel](https://github.com/zitadel/zitadel/fork)
+1. [Fork zitadel/zitadel](https://github.com/Tualua/zitadel-ldapfix/fork)
 1. Clone your Zitadel fork git clone https://github.com/<your-owner>/zitadel.git
 1. Change directory to your Zitadel forks root.
 1. Pull your changes into the Zitadel fork by running make login_pull LOGIN_REMOTE_URL=https://github.com/<your-owner>/typescript.git LOGIN_REMOTE_BRANCH=<your-typescript-fork-branch>.
-1. Push your changes and [open a pull request to zitadel/zitadel](https://github.com/zitadel/zitadel/compare)
+1. Push your changes and [open a pull request to zitadel/zitadel](https://github.com/Tualua/zitadel-ldapfix/compare)
 
 Please consider the following guidelines when creating a pull request.
 

@@ -5,7 +5,7 @@ import (
 
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 
-	"github.com/zitadel/zitadel/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
 )
 
 type AuthRequestV2 struct {

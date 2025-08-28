@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/idp/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/idp/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2"
 )
 
 type idpAttr struct {

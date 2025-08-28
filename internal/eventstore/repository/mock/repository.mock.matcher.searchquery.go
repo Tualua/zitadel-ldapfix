@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zitadel/zitadel/internal/eventstore/repository"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/repository"
 )
 
 type filterQueryMatcher repository.SearchQuery

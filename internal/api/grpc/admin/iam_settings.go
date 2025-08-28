@@ -3,8 +3,8 @@ package admin
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	admin_pb "github.com/zitadel/zitadel/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	admin_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
 )
 
 func (s *Server) ListSecretGenerators(ctx context.Context, req *admin_pb.ListSecretGeneratorsRequest) (*admin_pb.ListSecretGeneratorsResponse, error) {

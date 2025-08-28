@@ -1,7 +1,7 @@
 package domain
 
 import (
-	"github.com/zitadel/zitadel/internal/id"
+	"github.com/Tualua/zitadel-ldapfix/internal/id"
 )
 
 type oAuthApplication interface {

@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
 )
 
 var (

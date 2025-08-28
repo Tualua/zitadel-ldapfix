@@ -11,21 +11,21 @@ import (
 	"github.com/zitadel/logging"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/auth/repository/eventsourcing/view"
-	cache "github.com/zitadel/zitadel/internal/auth_request/repository"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	es_models "github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/id"
-	"github.com/zitadel/zitadel/internal/query"
-	user_repo "github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	user_model "github.com/zitadel/zitadel/internal/user/model"
-	user_view_model "github.com/zitadel/zitadel/internal/user/repository/view/model"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/auth/repository/eventsourcing/view"
+	cache "github.com/Tualua/zitadel-ldapfix/internal/auth_request/repository"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	es_models "github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/id"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	user_repo "github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	user_model "github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	user_view_model "github.com/Tualua/zitadel-ldapfix/internal/user/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const unknownUserID = "UNKNOWN"
@@ -1227,7 +1227,7 @@ func (repo *AuthRequestRepo) nextStepsUser(ctx context.Context, request *domain.
 		if request.SelectedIDPConfigID != "" {
 			steps = append(steps, &domain.RedirectToExternalIDPStep{})
 		}
-		// or there aren't any sessions to use, present the login page (https://github.com/zitadel/zitadel/issues/7213)
+		// or there aren't any sessions to use, present the login page (https://github.com/Tualua/zitadel-ldapfix/issues/7213)
 		if len(users) == 0 {
 			steps = append(steps, new(domain.LoginStep))
 		}

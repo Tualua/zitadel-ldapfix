@@ -13,9 +13,9 @@ import (
 
 	"github.com/benbjohnson/clock"
 
-	"github.com/zitadel/zitadel/internal/logstore"
-	emittermock "github.com/zitadel/zitadel/internal/logstore/mock"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore"
+	emittermock "github.com/Tualua/zitadel-ldapfix/internal/logstore/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 const (

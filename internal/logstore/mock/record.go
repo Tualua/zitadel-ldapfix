@@ -5,7 +5,7 @@ import (
 
 	"github.com/benbjohnson/clock"
 
-	"github.com/zitadel/zitadel/internal/logstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore"
 )
 
 var _ logstore.LogRecord[*Record] = (*Record)(nil)

@@ -7,10 +7,10 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/scim/resources/filter"
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/api/scim/serrors"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources/filter"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/serrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type OperationRequest struct {

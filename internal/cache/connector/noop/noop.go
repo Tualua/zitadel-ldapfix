@@ -3,7 +3,7 @@ package noop
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
 )
 
 type noop[I, K comparable, V cache.Entry[I, K]] struct{}

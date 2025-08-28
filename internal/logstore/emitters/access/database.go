@@ -6,15 +6,15 @@ import (
 	"errors"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/logstore"
-	"github.com/zitadel/zitadel/internal/logstore/record"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/query/projection"
-	"github.com/zitadel/zitadel/internal/repository/quota"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore/record"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/query/projection"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/quota"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 var _ logstore.UsageStorer[*record.AccessLog] = (*databaseLogStorage)(nil)

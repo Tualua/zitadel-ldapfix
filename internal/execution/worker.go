@@ -9,8 +9,8 @@ import (
 
 	"github.com/riverqueue/river"
 
-	"github.com/zitadel/zitadel/internal/query"
-	exec_repo "github.com/zitadel/zitadel/internal/repository/execution"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	exec_repo "github.com/Tualua/zitadel-ldapfix/internal/repository/execution"
 )
 
 type Worker struct {

@@ -3,11 +3,11 @@ package config
 import (
 	"database/sql"
 
-	"github.com/zitadel/zitadel/internal/api/http/middleware"
-	"github.com/zitadel/zitadel/internal/static"
-	"github.com/zitadel/zitadel/internal/static/database"
-	"github.com/zitadel/zitadel/internal/static/s3"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/http/middleware"
+	"github.com/Tualua/zitadel-ldapfix/internal/static"
+	"github.com/Tualua/zitadel-ldapfix/internal/static/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/static/s3"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type AssetStorageConfig struct {

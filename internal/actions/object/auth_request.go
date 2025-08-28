@@ -6,8 +6,8 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/zitadel/zitadel/internal/actions"
-	"github.com/zitadel/zitadel/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/actions"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 // AuthRequestField accepts the domain.AuthRequest by value, so it's not mutated

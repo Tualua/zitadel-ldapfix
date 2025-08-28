@@ -14,10 +14,10 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	object "github.com/zitadel/zitadel/pkg/grpc/object/v3alpha"
-	resource_object "github.com/zitadel/zitadel/pkg/grpc/resources/object/v3alpha"
-	user "github.com/zitadel/zitadel/pkg/grpc/resources/user/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v3alpha"
+	resource_object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/resources/object/v3alpha"
+	user "github.com/Tualua/zitadel-ldapfix/pkg/grpc/resources/user/v3alpha"
 )
 
 func TestServer_CreateUser(t *testing.T) {

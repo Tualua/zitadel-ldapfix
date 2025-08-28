@@ -3,10 +3,10 @@ package command
 import (
 	"strings"
 
-	"github.com/zitadel/zitadel/internal/command/preparation"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/repository/instance"
-	"github.com/zitadel/zitadel/internal/repository/project"
+	"github.com/Tualua/zitadel-ldapfix/internal/command/preparation"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/instance"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/project"
 )
 
 type SystemConfigWriteModel struct {

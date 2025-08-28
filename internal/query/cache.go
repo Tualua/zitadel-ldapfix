@@ -7,9 +7,9 @@ import (
 	"github.com/hashicorp/golang-lru/v2/expirable"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/cache"
-	"github.com/zitadel/zitadel/internal/cache/connector"
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache/connector"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 type Caches struct {

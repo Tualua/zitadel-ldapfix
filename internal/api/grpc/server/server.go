@@ -11,14 +11,14 @@ import (
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	grpc_api "github.com/zitadel/zitadel/internal/api/grpc"
-	"github.com/zitadel/zitadel/internal/api/grpc/server/middleware"
-	"github.com/zitadel/zitadel/internal/logstore"
-	"github.com/zitadel/zitadel/internal/logstore/record"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/telemetry/metrics"
-	system_pb "github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	grpc_api "github.com/Tualua/zitadel-ldapfix/internal/api/grpc"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/server/middleware"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore/record"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics"
+	system_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 type Server interface {

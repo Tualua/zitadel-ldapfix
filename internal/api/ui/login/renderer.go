@@ -13,16 +13,16 @@ import (
 	"github.com/gorilla/csrf"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/cmd/build"
-	"github.com/zitadel/zitadel/internal/api/authz"
-	http_mw "github.com/zitadel/zitadel/internal/api/http/middleware"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/i18n"
-	"github.com/zitadel/zitadel/internal/notification/templates"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/renderer"
-	"github.com/zitadel/zitadel/internal/static"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/cmd/build"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	http_mw "github.com/Tualua/zitadel-ldapfix/internal/api/http/middleware"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/templates"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/renderer"
+	"github.com/Tualua/zitadel-ldapfix/internal/static"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

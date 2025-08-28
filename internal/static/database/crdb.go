@@ -10,8 +10,8 @@ import (
 
 	"github.com/Masterminds/squirrel"
 
-	"github.com/zitadel/zitadel/internal/static"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/static"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 var _ static.Storage = (*storage)(nil)

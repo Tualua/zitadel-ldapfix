@@ -16,11 +16,11 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/idp"
-	idp_pb "github.com/zitadel/zitadel/pkg/grpc/idp/v2"
-	object_pb "github.com/zitadel/zitadel/pkg/grpc/object/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/settings/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/idp"
+	idp_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/idp/v2"
+	object_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/settings/v2"
 )
 
 func TestServer_GetSecuritySettings(t *testing.T) {

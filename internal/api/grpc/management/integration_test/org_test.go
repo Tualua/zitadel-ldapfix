@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	mgmt_pb "github.com/zitadel/zitadel/pkg/grpc/management"
-	"github.com/zitadel/zitadel/pkg/grpc/member"
-	"github.com/zitadel/zitadel/pkg/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	mgmt_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/member"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object"
 )
 
 var iamRoles = []string{

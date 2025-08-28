@@ -13,17 +13,17 @@ import (
 	"go.uber.org/mock/gomock"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/id"
-	"github.com/zitadel/zitadel/internal/id/mock"
-	"github.com/zitadel/zitadel/internal/repository/samlrequest"
-	"github.com/zitadel/zitadel/internal/repository/samlsession"
-	"github.com/zitadel/zitadel/internal/repository/session"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/id"
+	"github.com/Tualua/zitadel-ldapfix/internal/id/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/samlrequest"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/samlsession"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/session"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func mockSAMLRequestComplianceChecker(returnErr error) SAMLRequestComplianceChecker {

@@ -11,7 +11,7 @@ import "zitadel/protoc_gen_zitadel/v2/options.proto";
 import "zitadel/authorization/v2beta/authorization.proto";
 import "zitadel/filter/v2beta/filter.proto";
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/authorization/v2beta;authorization";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/authorization/v2beta;authorization";
 
 // AuthorizationService provides methods to manage authorizations for users within your projects and applications.
 //

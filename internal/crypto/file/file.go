@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/zitadel/zitadel/internal/config"
-	"github.com/zitadel/zitadel/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/config"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
 )
 
 const (

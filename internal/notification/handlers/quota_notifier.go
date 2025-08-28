@@ -4,14 +4,14 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	"github.com/zitadel/zitadel/internal/notification/channels/webhook"
-	_ "github.com/zitadel/zitadel/internal/notification/statik"
-	"github.com/zitadel/zitadel/internal/notification/types"
-	"github.com/zitadel/zitadel/internal/repository/quota"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/webhook"
+	_ "github.com/Tualua/zitadel-ldapfix/internal/notification/statik"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/types"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/quota"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

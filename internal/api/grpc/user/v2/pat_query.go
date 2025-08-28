@@ -6,11 +6,11 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/filter/v2"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	filter_pb "github.com/zitadel/zitadel/pkg/grpc/filter/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	filter_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 func (s *Server) ListPersonalAccessTokens(ctx context.Context, req *connect.Request[user.ListPersonalAccessTokensRequest]) (*connect.Response[user.ListPersonalAccessTokensResponse], error) {

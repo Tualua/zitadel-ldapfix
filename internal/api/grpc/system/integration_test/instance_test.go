@@ -8,10 +8,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/instance"
-	"github.com/zitadel/zitadel/pkg/grpc/object"
-	system_pb "github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object"
+	system_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 func TestServer_ListInstances(t *testing.T) {

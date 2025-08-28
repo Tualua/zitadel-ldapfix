@@ -19,13 +19,13 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc"
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/internal/integration/sink"
-	"github.com/zitadel/zitadel/pkg/grpc/idp"
-	mgmt "github.com/zitadel/zitadel/pkg/grpc/management"
-	object "github.com/zitadel/zitadel/pkg/grpc/object/v2beta"
-	user "github.com/zitadel/zitadel/pkg/grpc/user/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration/sink"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/idp"
+	mgmt "github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2beta"
+	user "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2beta"
 )
 
 var (

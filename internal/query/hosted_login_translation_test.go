@@ -16,11 +16,11 @@ import (
 	"google.golang.org/protobuf/runtime/protoimpl"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/database/mock"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	"github.com/zitadel/zitadel/pkg/grpc/settings/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/settings/v2"
 )
 
 func TestGetSystemTranslation(t *testing.T) {

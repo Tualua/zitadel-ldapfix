@@ -1,8 +1,8 @@
 package sms
 
 import (
-	"github.com/zitadel/zitadel/internal/notification/channels/twilio"
-	"github.com/zitadel/zitadel/internal/notification/channels/webhook"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/twilio"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/webhook"
 )
 
 type Config struct {

@@ -7,7 +7,7 @@ import (
 
 	"connectrpc.com/connect"
 
-	_ "github.com/zitadel/zitadel/internal/statik"
+	_ "github.com/Tualua/zitadel-ldapfix/internal/statik"
 )
 
 func NoCacheInterceptor() connect.UnaryInterceptorFunc {

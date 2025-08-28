@@ -5,16 +5,16 @@ import (
 
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	scim_config "github.com/zitadel/zitadel/internal/api/scim/config"
-	"github.com/zitadel/zitadel/internal/api/scim/resources/filter"
-	"github.com/zitadel/zitadel/internal/api/scim/resources/patch"
-	scim_schemas "github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	scim_config "github.com/Tualua/zitadel-ldapfix/internal/api/scim/config"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources/filter"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources/patch"
+	scim_schemas "github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type UsersHandler struct {

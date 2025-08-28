@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/v2/eventstore"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func intentToCommands(intent *intent) (commands []*command, err error) {

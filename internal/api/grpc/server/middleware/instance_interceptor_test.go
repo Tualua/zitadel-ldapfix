@@ -10,10 +10,10 @@ import (
 	"golang.org/x/text/language"
 	"google.golang.org/grpc"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	http_util "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/feature"
-	object_v3 "github.com/zitadel/zitadel/pkg/grpc/object/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/feature"
+	object_v3 "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v3alpha"
 )
 
 func Test_setInstance(t *testing.T) {

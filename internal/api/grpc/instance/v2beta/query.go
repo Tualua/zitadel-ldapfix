@@ -5,8 +5,8 @@ import (
 
 	"connectrpc.com/connect"
 
-	filter "github.com/zitadel/zitadel/internal/api/grpc/filter/v2beta"
-	instance "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta"
+	filter "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2beta"
+	instance "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta"
 )
 
 func (s *Server) GetInstance(ctx context.Context, _ *connect.Request[instance.GetInstanceRequest]) (*connect.Response[instance.GetInstanceResponse], error) {

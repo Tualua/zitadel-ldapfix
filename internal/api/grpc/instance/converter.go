@@ -1,11 +1,11 @@
 package org
 
 import (
-	"github.com/zitadel/zitadel/cmd/build"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	instance_pb "github.com/zitadel/zitadel/pkg/grpc/instance"
+	"github.com/Tualua/zitadel-ldapfix/cmd/build"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	instance_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance"
 )
 
 func InstancesToPb(instances []*query.Instance) []*instance_pb.Instance {

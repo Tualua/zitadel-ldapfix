@@ -13,13 +13,13 @@ import (
 	"github.com/robfig/cron/v3"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/cmd/build"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/queue"
-	"github.com/zitadel/zitadel/internal/v2/system"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	analytics "github.com/zitadel/zitadel/pkg/grpc/analytics/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/cmd/build"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/queue"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	analytics "github.com/Tualua/zitadel-ldapfix/pkg/grpc/analytics/v2beta"
 )
 
 const (

@@ -13,13 +13,13 @@ import (
 	"github.com/jackc/pgx/v5/stdlib"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/cmd/initialise"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/database/dialect"
-	"github.com/zitadel/zitadel/internal/database/postgres"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	es_sql "github.com/zitadel/zitadel/internal/eventstore/repository/sql"
-	new_es "github.com/zitadel/zitadel/internal/eventstore/v3"
+	"github.com/Tualua/zitadel-ldapfix/cmd/initialise"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database/dialect"
+	"github.com/Tualua/zitadel-ldapfix/internal/database/postgres"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	es_sql "github.com/Tualua/zitadel-ldapfix/internal/eventstore/repository/sql"
+	new_es "github.com/Tualua/zitadel-ldapfix/internal/eventstore/v3"
 )
 
 var (

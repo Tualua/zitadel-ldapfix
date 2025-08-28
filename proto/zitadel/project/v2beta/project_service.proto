@@ -15,7 +15,7 @@ import "zitadel/project/v2beta/query.proto";
 import "google/protobuf/timestamp.proto";
 import "zitadel/filter/v2beta/filter.proto";
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/project/v2beta;project";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta;project";
 
 option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
   info: {
@@ -29,7 +29,7 @@ option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
     }
     license: {
       name: "Apache 2.0",
-      url: "https://github.com/zitadel/zitadel/blob/main/LICENSING.md";
+      url: "https://github.com/Tualua/zitadel-ldapfix/blob/main/LICENSING.md";
     };
   };
   schemes: HTTPS;

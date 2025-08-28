@@ -6,13 +6,13 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/api/grpc/server"
-	"github.com/zitadel/zitadel/internal/api/saml"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/query"
-	saml_pb "github.com/zitadel/zitadel/pkg/grpc/saml/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/saml/v2/samlconnect"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/server"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/saml"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	saml_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/saml/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/saml/v2/samlconnect"
 )
 
 var _ samlconnect.SAMLServiceHandler = (*Server)(nil)

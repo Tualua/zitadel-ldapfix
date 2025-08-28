@@ -10,10 +10,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	v1 "github.com/zitadel/zitadel/pkg/grpc/v1"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	v1 "github.com/Tualua/zitadel-ldapfix/pkg/grpc/v1"
 )
 
 func TestServer_ImportData(t *testing.T) {

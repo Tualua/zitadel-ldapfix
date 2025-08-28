@@ -3,8 +3,8 @@ package logstore_test
 import (
 	"time"
 
-	"github.com/zitadel/zitadel/internal/logstore"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 type emitterOption func(config *logstore.EmitterConfig)

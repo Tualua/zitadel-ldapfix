@@ -1,9 +1,9 @@
 package view
 
 import (
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/iam/repository/view"
-	"github.com/zitadel/zitadel/internal/iam/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/iam/repository/view"
+	"github.com/Tualua/zitadel-ldapfix/internal/iam/repository/view/model"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/zitadel/zitadel/internal/v2/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/database"
 )
 
 func TestPaginationOpt(t *testing.T) {

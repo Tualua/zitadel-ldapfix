@@ -3,9 +3,9 @@ package admin
 import (
 	"context"
 
-	instance_grpc "github.com/zitadel/zitadel/internal/api/grpc/instance"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	admin_pb "github.com/zitadel/zitadel/pkg/grpc/admin"
+	instance_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/instance"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	admin_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
 )
 
 func (s *Server) GetMyInstance(ctx context.Context, _ *admin_pb.GetMyInstanceRequest) (*admin_pb.GetMyInstanceResponse, error) {

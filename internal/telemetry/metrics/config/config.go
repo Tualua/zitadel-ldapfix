@@ -1,9 +1,9 @@
 package config
 
 import (
-	"github.com/zitadel/zitadel/internal/telemetry/metrics"
-	"github.com/zitadel/zitadel/internal/telemetry/metrics/otel"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics/otel"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type Config struct {

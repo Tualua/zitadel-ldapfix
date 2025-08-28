@@ -31,7 +31,7 @@ docker_image:
 
 .PHONY: compile_pipeline
 compile_pipeline: console_move
-	CGO_ENABLED=0 go build -o zitadel -v -ldflags="-s -w -X 'github.com/zitadel/zitadel/cmd/build.commit=$(COMMIT_SHA)' -X 'github.com/zitadel/zitadel/cmd/build.date=$(now)' -X 'github.com/zitadel/zitadel/cmd/build.version=$(VERSION)' "
+	CGO_ENABLED=0 go build -o zitadel -v -ldflags="-s -w -X 'github.com/Tualua/zitadel-ldapfix/cmd/build.commit=$(COMMIT_SHA)' -X 'github.com/Tualua/zitadel-ldapfix/cmd/build.date=$(now)' -X 'github.com/Tualua/zitadel-ldapfix/cmd/build.version=$(VERSION)' "
 	chmod +x zitadel
 
 .PHONY: core_dependencies
@@ -84,7 +84,7 @@ core_grpc_dependencies:
 core_api: core_api_generator core_grpc_dependencies
 	buf generate
 	mkdir -p pkg/grpc
-	cp -r .artifacts/grpc/github.com/zitadel/zitadel/pkg/grpc/** pkg/grpc/
+	cp -r .artifacts/grpc/github.com/Tualua/zitadel-ldapfix/pkg/grpc/** pkg/grpc/
 	mkdir -p openapi/v2/zitadel
 	cp -r .artifacts/grpc/zitadel/ openapi/v2/zitadel
 
@@ -152,7 +152,7 @@ core_integration_server_stop:
 
 .PHONY: core_integration_reports
 core_integration_reports:
-	go tool covdata textfmt -i=tmp/coverage -pkg=github.com/zitadel/zitadel/internal/...,github.com/zitadel/zitadel/cmd/... -o profile.cov
+	go tool covdata textfmt -i=tmp/coverage -pkg=github.com/Tualua/zitadel-ldapfix/internal/...,github.com/Tualua/zitadel-ldapfix/cmd/... -o profile.cov
 
 .PHONY: core_integration_test
 core_integration_test: core_integration_server_start core_integration_test_packages core_integration_server_stop core_integration_reports

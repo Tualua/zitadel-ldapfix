@@ -1,6 +1,6 @@
 package query
 
-import "github.com/zitadel/zitadel/internal/query/projection"
+import "github.com/Tualua/zitadel-ldapfix/internal/query/projection"
 
 var (
 	loginNameTable = table{

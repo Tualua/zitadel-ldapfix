@@ -3,18 +3,18 @@ package eventsourcing
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/auth/repository/eventsourcing/eventstore"
-	auth_handler "github.com/zitadel/zitadel/internal/auth/repository/eventsourcing/handler"
-	auth_view "github.com/zitadel/zitadel/internal/auth/repository/eventsourcing/view"
-	"github.com/zitadel/zitadel/internal/auth_request/repository/cache"
-	"github.com/zitadel/zitadel/internal/command"
-	sd "github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/domain"
-	eventstore2 "github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/id"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/auth/repository/eventsourcing/eventstore"
+	auth_handler "github.com/Tualua/zitadel-ldapfix/internal/auth/repository/eventsourcing/handler"
+	auth_view "github.com/Tualua/zitadel-ldapfix/internal/auth/repository/eventsourcing/view"
+	"github.com/Tualua/zitadel-ldapfix/internal/auth_request/repository/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	sd "github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	eventstore2 "github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/id"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 type Config struct {

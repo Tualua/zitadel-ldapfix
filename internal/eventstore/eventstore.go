@@ -10,9 +10,9 @@ import (
 	"github.com/shopspring/decimal"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func init() {
@@ -103,7 +103,7 @@ func (es *Eventstore) PushWithClient(ctx context.Context, client database.Contex
 
 	// Retry when there is a collision of the sequence as part of the primary key.
 	// "duplicate key value violates unique constraint \"events2_pkey\" (SQLSTATE 23505)"
-	// https://github.com/zitadel/zitadel/issues/7202
+	// https://github.com/Tualua/zitadel-ldapfix/issues/7202
 retry:
 	for i := 0; i <= es.maxRetries; i++ {
 		events, err = es.pusher.Push(ctx, client, cmds...)

@@ -12,10 +12,10 @@ import (
 	"github.com/mitchellh/mapstructure"
 	"github.com/zitadel/logging"
 
-	_ "github.com/zitadel/zitadel/internal/database/cockroach"
-	"github.com/zitadel/zitadel/internal/database/dialect"
-	_ "github.com/zitadel/zitadel/internal/database/postgres"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	_ "github.com/Tualua/zitadel-ldapfix/internal/database/cockroach"
+	"github.com/Tualua/zitadel-ldapfix/internal/database/dialect"
+	_ "github.com/Tualua/zitadel-ldapfix/internal/database/postgres"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type ContextQuerier interface {

@@ -5,12 +5,12 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/notification/channels"
-	"github.com/zitadel/zitadel/internal/notification/channels/fs"
-	"github.com/zitadel/zitadel/internal/notification/channels/instrumenting"
-	"github.com/zitadel/zitadel/internal/notification/channels/log"
-	"github.com/zitadel/zitadel/internal/notification/channels/set"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/fs"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/instrumenting"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/log"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/set"
 )
 
 const setSpanName = "security_event_token.NotificationChannel"

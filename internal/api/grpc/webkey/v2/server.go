@@ -6,11 +6,11 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/pkg/grpc/webkey/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/webkey/v2/webkeyconnect"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/webkey/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/webkey/v2/webkeyconnect"
 )
 
 var _ webkeyconnect.WebKeyServiceHandler = (*Server)(nil)

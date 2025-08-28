@@ -1,8 +1,8 @@
 package pg
 
 import (
-	"github.com/zitadel/zitadel/internal/cache"
-	"github.com/zitadel/zitadel/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
 )
 
 type Config struct {

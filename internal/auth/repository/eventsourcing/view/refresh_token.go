@@ -3,11 +3,11 @@ package view
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/query"
-	user_model "github.com/zitadel/zitadel/internal/user/model"
-	usr_view "github.com/zitadel/zitadel/internal/user/repository/view"
-	"github.com/zitadel/zitadel/internal/user/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	user_model "github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	usr_view "github.com/Tualua/zitadel-ldapfix/internal/user/repository/view"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/repository/view/model"
 )
 
 const (

@@ -10,13 +10,13 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/object/v2"
-	http_utils "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/api/oidc"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	oidc_pb "github.com/zitadel/zitadel/pkg/grpc/oidc/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2"
+	http_utils "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/oidc"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	oidc_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/oidc/v2"
 )
 
 func (s *Server) GetAuthRequest(ctx context.Context, req *connect.Request[oidc_pb.GetAuthRequestRequest]) (*connect.Response[oidc_pb.GetAuthRequestResponse], error) {

@@ -3,9 +3,9 @@
 package {{.GoPackageName}}
 
 import (
-	"github.com/zitadel/zitadel/internal/api/authz"
-	{{if .AuthContext}}"github.com/zitadel/zitadel/internal/api/grpc/server/middleware"{{end}}
-	{{if .AuthContext}}"github.com/zitadel/zitadel/internal/api/grpc/server/connect_middleware"{{end}}
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	{{if .AuthContext}}"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/server/middleware"{{end}}
+	{{if .AuthContext}}"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/server/connect_middleware"{{end}}
 )
 
 var {{.ServiceName}}_AuthMethods = authz.MethodMapping {

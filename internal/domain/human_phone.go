@@ -5,9 +5,9 @@ import (
 
 	"github.com/ttacon/libphonenumber"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	es_models "github.com/zitadel/zitadel/internal/eventstore/v1/models"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	es_models "github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const defaultRegion = "CH"
@@ -49,7 +49,7 @@ func (p *Phone) Normalize() error {
 	if err != nil {
 		return err
 	}
-	// Issue for avoiding mutating state: https://github.com/zitadel/zitadel/issues/5412
+	// Issue for avoiding mutating state: https://github.com/Tualua/zitadel-ldapfix/issues/5412
 	p.PhoneNumber = normalizedNumber
 	return nil
 }

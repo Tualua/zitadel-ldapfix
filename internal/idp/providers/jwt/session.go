@@ -14,8 +14,8 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/idp"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp"
 )
 
 var _ idp.Session = (*Session)(nil)
@@ -73,7 +73,7 @@ func (s *Session) ExpiresAt() time.Time {
 
 func (s *Session) validateToken(ctx context.Context, token string) (*oidc.IDTokenClaims, error) {
 	logging.Debug("begin token validation")
-	// TODO: be able to specify them in the template: https://github.com/zitadel/zitadel/issues/5322
+	// TODO: be able to specify them in the template: https://github.com/Tualua/zitadel-ldapfix/issues/5322
 	offset := 3 * time.Second
 	maxAge := time.Hour
 	claims := new(oidc.IDTokenClaims)

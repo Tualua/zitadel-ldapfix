@@ -11,14 +11,14 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/cmd/admin"
-	"github.com/zitadel/zitadel/cmd/build"
-	"github.com/zitadel/zitadel/cmd/initialise"
-	"github.com/zitadel/zitadel/cmd/key"
-	"github.com/zitadel/zitadel/cmd/mirror"
-	"github.com/zitadel/zitadel/cmd/ready"
-	"github.com/zitadel/zitadel/cmd/setup"
-	"github.com/zitadel/zitadel/cmd/start"
+	"github.com/Tualua/zitadel-ldapfix/cmd/admin"
+	"github.com/Tualua/zitadel-ldapfix/cmd/build"
+	"github.com/Tualua/zitadel-ldapfix/cmd/initialise"
+	"github.com/Tualua/zitadel-ldapfix/cmd/key"
+	"github.com/Tualua/zitadel-ldapfix/cmd/mirror"
+	"github.com/Tualua/zitadel-ldapfix/cmd/ready"
+	"github.com/Tualua/zitadel-ldapfix/cmd/setup"
+	"github.com/Tualua/zitadel-ldapfix/cmd/start"
 )
 
 var (

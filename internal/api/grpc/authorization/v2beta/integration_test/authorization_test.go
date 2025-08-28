@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/integration"
-	authorization "github.com/zitadel/zitadel/pkg/grpc/authorization/v2beta"
-	project "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	authorization "github.com/Tualua/zitadel-ldapfix/pkg/grpc/authorization/v2beta"
+	project "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 func TestServer_CreateAuthorization(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	zhttp "github.com/zitadel/zitadel/internal/api/http"
+	zhttp "github.com/Tualua/zitadel-ldapfix/internal/api/http"
 )
 
 func TestContentTypeMiddleware(t *testing.T) {

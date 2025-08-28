@@ -3,10 +3,10 @@ package metadata
 import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	filter_v2 "github.com/zitadel/zitadel/internal/api/grpc/filter/v2"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	meta_pb "github.com/zitadel/zitadel/pkg/grpc/metadata/v2"
+	filter_v2 "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	meta_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/metadata/v2"
 )
 
 func UserMetadataListToPb(dataList []*query.UserMetadata) []*meta_pb.Metadata {

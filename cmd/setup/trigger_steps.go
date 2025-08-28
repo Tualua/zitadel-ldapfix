@@ -3,10 +3,10 @@ package setup
 import (
 	"fmt"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/migration"
-	"github.com/zitadel/zitadel/internal/query/projection"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/migration"
+	"github.com/Tualua/zitadel-ldapfix/internal/query/projection"
 )
 
 // triggerSteps defines the repeatable migrations that set up triggers

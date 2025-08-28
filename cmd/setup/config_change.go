@@ -3,10 +3,10 @@ package setup
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/cache/connector"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache/connector"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 type externalConfigChange struct {

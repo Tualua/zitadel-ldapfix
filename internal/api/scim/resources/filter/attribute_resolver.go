@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 // jsonFieldCache Cache storing JSON tag to field mappings for each reflect.Type

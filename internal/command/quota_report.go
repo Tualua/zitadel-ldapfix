@@ -3,9 +3,9 @@ package command
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/repository/quota"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/quota"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 // ReportQuotaUsage writes a slice of *quota.NotificationDueEvent directly to the eventstore

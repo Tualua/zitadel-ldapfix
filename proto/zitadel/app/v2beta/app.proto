@@ -11,7 +11,7 @@ import "google/protobuf/duration.proto";
 import "google/protobuf/timestamp.proto";
 import "validate/validate.proto";
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/app/v2beta;app";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta;app";
 
 message Application {
     string id = 1 [

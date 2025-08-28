@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 type alreadyHandled struct {

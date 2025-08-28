@@ -3,8 +3,8 @@ package command
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/cache"
-	"github.com/zitadel/zitadel/internal/cache/connector"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache/connector"
 )
 
 type Caches struct {

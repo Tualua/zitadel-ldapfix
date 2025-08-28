@@ -6,12 +6,12 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	filter "github.com/zitadel/zitadel/internal/api/grpc/filter/v2beta"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	filter_pb "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
-	project_pb "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
+	filter "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	filter_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
+	project_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
 )
 
 func (s *Server) GetProject(ctx context.Context, req *connect.Request[project_pb.GetProjectRequest]) (*connect.Response[project_pb.GetProjectResponse], error) {

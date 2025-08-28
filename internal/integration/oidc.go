@@ -17,13 +17,13 @@ import (
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	http_util "github.com/zitadel/zitadel/internal/api/http"
-	oidc_internal "github.com/zitadel/zitadel/internal/api/oidc"
-	"github.com/zitadel/zitadel/pkg/grpc/app"
-	"github.com/zitadel/zitadel/pkg/grpc/authn"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	"github.com/zitadel/zitadel/pkg/grpc/user"
-	user_v2 "github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	oidc_internal "github.com/Tualua/zitadel-ldapfix/internal/api/oidc"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/app"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/authn"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user"
+	user_v2 "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 func (i *Instance) CreateOIDCClientLoginVersion(ctx context.Context, redirectURI, logoutRedirectURI, projectID string, appType app.OIDCAppType, authMethod app.OIDCAuthMethodType, devMode bool, loginVersion *app.LoginVersion, grantTypes ...app.OIDCGrantType) (*management.AddOIDCAppResponse, error) {

@@ -11,10 +11,10 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/scim/resources/patch"
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/api/scim/serrors"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources/patch"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/serrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 // RawResourceHandlerAdapter adapts the ResourceHandler[T] without any generics

@@ -1,9 +1,9 @@
 package user
 
 import (
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/v2/eventstore"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type machineSecretSetPayload struct {

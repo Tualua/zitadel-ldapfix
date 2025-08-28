@@ -1,9 +1,9 @@
 package model
 
 import (
-	"github.com/zitadel/zitadel/internal/domain"
-	usr_model "github.com/zitadel/zitadel/internal/user/model"
-	"github.com/zitadel/zitadel/internal/view/repository"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	usr_model "github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/view/repository"
 )
 
 type UserSearchRequest usr_model.UserSearchRequest

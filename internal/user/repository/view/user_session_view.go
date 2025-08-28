@@ -6,9 +6,9 @@ import (
 	_ "embed"
 	"errors"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/user/repository/view/model"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 //go:embed user_session_by_id.sql

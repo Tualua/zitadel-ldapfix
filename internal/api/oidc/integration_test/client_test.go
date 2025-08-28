@@ -16,12 +16,12 @@ import (
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 	"golang.org/x/text/language"
 
-	oidc_api "github.com/zitadel/zitadel/internal/api/oidc"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/authn"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	oidc_pb "github.com/zitadel/zitadel/pkg/grpc/oidc/v2"
+	oidc_api "github.com/Tualua/zitadel-ldapfix/internal/api/oidc"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/authn"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	oidc_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/oidc/v2"
 )
 
 func TestServer_Introspect(t *testing.T) {
@@ -142,7 +142,7 @@ func TestServer_Introspect(t *testing.T) {
 
 func TestServer_Introspect_invalid_auth_invalid_token(t *testing.T) {
 	// ensure that when an invalid authentication and token is sent, the authentication error is returned
-	// https://github.com/zitadel/zitadel/pull/8133
+	// https://github.com/Tualua/zitadel-ldapfix/pull/8133
 	resourceServer, err := Instance.CreateResourceServerClientCredentials(CTX, "xxxxx", "xxxxx")
 	require.NoError(t, err)
 	_, err = rs.Introspect[*oidc.IntrospectionResponse](context.Background(), resourceServer, "xxxxx")

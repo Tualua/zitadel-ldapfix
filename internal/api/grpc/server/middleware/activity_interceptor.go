@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/zitadel/zitadel/internal/activity"
-	"github.com/zitadel/zitadel/internal/api/grpc/gerrors"
-	ainfo "github.com/zitadel/zitadel/internal/api/info"
+	"github.com/Tualua/zitadel-ldapfix/internal/activity"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/gerrors"
+	ainfo "github.com/Tualua/zitadel-ldapfix/internal/api/info"
 )
 
 func ActivityInterceptor() grpc.UnaryServerInterceptor {

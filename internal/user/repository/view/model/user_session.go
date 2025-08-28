@@ -6,12 +6,12 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/repository/user"
-	"github.com/zitadel/zitadel/internal/user/model"
-	es_model "github.com/zitadel/zitadel/internal/user/repository/eventsourcing/model"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	es_model "github.com/Tualua/zitadel-ldapfix/internal/user/repository/eventsourcing/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (
@@ -42,7 +42,7 @@ type UserSessionView struct {
 	State         sql.Null[domain.UserSessionState] `json:"-" gorm:"column:state"`
 	UserAgentID   string                            `json:"userAgentID" gorm:"column:user_agent_id;primary_key"`
 	UserID        string                            `json:"userID" gorm:"column:user_id;primary_key"`
-	// As of https://github.com/zitadel/zitadel/pull/7199 the following 4 attributes
+	// As of https://github.com/Tualua/zitadel-ldapfix/pull/7199 the following 4 attributes
 	// are not projected in the user session handler anymore
 	// and are therefore annotated with a `gorm:"-"`.
 	// They will be read from the corresponding projection directly.

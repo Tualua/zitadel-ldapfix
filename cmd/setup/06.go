@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	_ "embed"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 var (

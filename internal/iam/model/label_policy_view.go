@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/zitadel/zitadel/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 type LabelPolicySearchKey int32

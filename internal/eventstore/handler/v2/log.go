@@ -3,7 +3,7 @@ package handler
 import (
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 func (h *Handler) log() *logging.Entry {

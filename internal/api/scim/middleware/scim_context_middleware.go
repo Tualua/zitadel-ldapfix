@@ -8,12 +8,12 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	zhttp "github.com/zitadel/zitadel/internal/api/http/middleware"
-	smetadata "github.com/zitadel/zitadel/internal/api/scim/metadata"
-	sresources "github.com/zitadel/zitadel/internal/api/scim/resources"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	zhttp "github.com/Tualua/zitadel-ldapfix/internal/api/http/middleware"
+	smetadata "github.com/Tualua/zitadel-ldapfix/internal/api/scim/metadata"
+	sresources "github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func ScimContextMiddleware(q *query.Queries) func(next zhttp.HandlerFuncWithError) zhttp.HandlerFuncWithError {

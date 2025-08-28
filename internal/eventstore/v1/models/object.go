@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 type ObjectRoot struct {

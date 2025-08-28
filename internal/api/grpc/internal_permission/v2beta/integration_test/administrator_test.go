@@ -10,8 +10,8 @@ import (
 	"github.com/brianvoe/gofakeit/v6"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	internal_permission "github.com/zitadel/zitadel/pkg/grpc/internal_permission/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	internal_permission "github.com/Tualua/zitadel-ldapfix/pkg/grpc/internal_permission/v2beta"
 )
 
 func TestServer_CreateAdministrator(t *testing.T) {

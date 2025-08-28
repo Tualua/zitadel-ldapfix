@@ -3,8 +3,8 @@ package system
 import (
 	"github.com/muhlemmer/gu"
 
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 func setInstanceLimitsPbToCommand(req *system.SetLimitsRequest) *command.SetLimits {

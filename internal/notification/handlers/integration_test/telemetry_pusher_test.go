@@ -14,15 +14,15 @@ import (
 	"github.com/zitadel/oidc/v3/pkg/client/rp"
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/internal/integration/sink"
-	"github.com/zitadel/zitadel/internal/repository/milestone"
-	"github.com/zitadel/zitadel/pkg/grpc/app"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	"github.com/zitadel/zitadel/pkg/grpc/object"
-	oidc_v2 "github.com/zitadel/zitadel/pkg/grpc/oidc/v2"
-	"github.com/zitadel/zitadel/pkg/grpc/project"
-	"github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration/sink"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/milestone"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/app"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object"
+	oidc_v2 "github.com/Tualua/zitadel-ldapfix/pkg/grpc/oidc/v2"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/project"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 func TestServer_TelemetryPushMilestones(t *testing.T) {

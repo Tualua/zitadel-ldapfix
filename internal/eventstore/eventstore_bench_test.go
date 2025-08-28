@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 //go:embed bench_payload.txt

@@ -10,12 +10,12 @@ import (
 	"github.com/zitadel/logging"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	zitadel_http "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/i18n"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	object_v3 "github.com/zitadel/zitadel/pkg/grpc/object/v3alpha"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	zitadel_http "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	object_v3 "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v3alpha"
 )
 
 func InstanceInterceptor(verifier authz.InstanceVerifier, externalDomain string, explicitInstanceIdServices ...string) connect.UnaryInterceptorFunc {

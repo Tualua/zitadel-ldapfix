@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/scim/metadata"
-	"github.com/zitadel/zitadel/internal/api/scim/resources/filter"
-	"github.com/zitadel/zitadel/internal/api/scim/resources/patch"
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/test"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/metadata"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources/filter"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources/patch"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/test"
 )
 
 func TestOperationCollection_Apply(t *testing.T) {

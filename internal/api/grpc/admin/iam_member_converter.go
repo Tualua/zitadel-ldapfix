@@ -1,12 +1,12 @@
 package admin
 
 import (
-	member_grpc "github.com/zitadel/zitadel/internal/api/grpc/member"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/query"
-	admin_pb "github.com/zitadel/zitadel/pkg/grpc/admin"
-	member_pb "github.com/zitadel/zitadel/pkg/grpc/member"
+	member_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/member"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	admin_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	member_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/member"
 )
 
 func AddIAMMemberToCommand(req *admin_pb.AddIAMMemberRequest, instanceID string) *command.AddInstanceMember {

@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/zitadel/zitadel/internal/api/service"
-	_ "github.com/zitadel/zitadel/internal/statik"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/service"
+	_ "github.com/Tualua/zitadel-ldapfix/internal/statik"
 )
 
 func ServiceHandler() grpc.UnaryServerInterceptor {

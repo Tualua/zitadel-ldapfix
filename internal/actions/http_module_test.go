@@ -14,9 +14,9 @@ import (
 	"github.com/dop251/goja"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/logstore"
-	"github.com/zitadel/zitadel/internal/logstore/record"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/logstore/record"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func Test_isHostBlocked(t *testing.T) {

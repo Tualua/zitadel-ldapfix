@@ -5,7 +5,7 @@ import (
 
 	"github.com/gorilla/schema"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type Parser struct {

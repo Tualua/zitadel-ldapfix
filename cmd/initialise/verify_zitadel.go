@@ -10,8 +10,8 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database"
-	es_v3 "github.com/zitadel/zitadel/internal/eventstore/v3"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	es_v3 "github.com/Tualua/zitadel-ldapfix/internal/eventstore/v3"
 )
 
 func newZitadel() *cobra.Command {

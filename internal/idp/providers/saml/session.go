@@ -13,8 +13,8 @@ import (
 	"github.com/crewjam/saml"
 	"github.com/crewjam/saml/samlsp"
 
-	"github.com/zitadel/zitadel/internal/idp"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 var _ idp.Session = (*Session)(nil)

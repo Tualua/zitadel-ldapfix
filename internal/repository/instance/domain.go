@@ -3,8 +3,8 @@ package instance
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (
@@ -55,7 +55,7 @@ func (e *DomainAddedEvent) Fields() []*eventstore.FieldOperation {
 			InstanceDomainSearchField,
 			&eventstore.Value{
 				Value: e.Domain,
-				// TODO: (adlerhurst) ensure uniqueness if we go with fields table: https://github.com/zitadel/zitadel/issues/9009
+				// TODO: (adlerhurst) ensure uniqueness if we go with fields table: https://github.com/Tualua/zitadel-ldapfix/issues/9009
 				MustBeUnique: false,
 				ShouldIndex:  true,
 			},

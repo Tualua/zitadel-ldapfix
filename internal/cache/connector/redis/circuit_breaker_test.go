@@ -8,7 +8,7 @@ import (
 	"github.com/sony/gobreaker/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
 )
 
 func TestCBConfig_readyToTrip(t *testing.T) {

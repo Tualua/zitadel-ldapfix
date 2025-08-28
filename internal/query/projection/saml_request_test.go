@@ -3,10 +3,10 @@ package projection
 import (
 	"testing"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	"github.com/zitadel/zitadel/internal/repository/samlrequest"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/samlrequest"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestSamlRequestProjection_reduces(t *testing.T) {

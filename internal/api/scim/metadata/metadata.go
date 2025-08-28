@@ -4,7 +4,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 type Key string

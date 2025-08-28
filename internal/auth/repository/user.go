@@ -3,8 +3,8 @@ package repository
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/user/repository/view/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/repository/view/model"
 )
 
 type UserRepository interface {

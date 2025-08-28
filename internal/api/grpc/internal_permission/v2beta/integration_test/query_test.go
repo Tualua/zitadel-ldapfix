@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	filter "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
-	internal_permission "github.com/zitadel/zitadel/pkg/grpc/internal_permission/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	filter "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
+	internal_permission "github.com/Tualua/zitadel-ldapfix/pkg/grpc/internal_permission/v2beta"
 )
 
 func TestServer_ListAdministrators(t *testing.T) {

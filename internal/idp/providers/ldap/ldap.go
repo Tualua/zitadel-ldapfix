@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/idp"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp"
 )
 
 const DefaultPort = "389"

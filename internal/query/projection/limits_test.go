@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/eventstore/handler/v2"
-	"github.com/zitadel/zitadel/internal/repository/limits"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/limits"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestLimitsProjection_reduces(t *testing.T) {

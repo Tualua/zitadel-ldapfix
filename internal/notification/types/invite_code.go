@@ -4,10 +4,10 @@ import (
 	"context"
 	"strings"
 
-	http_utils "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/api/ui/login"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
+	http_utils "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/ui/login"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 func (notify Notify) SendInviteCode(ctx context.Context, user *query.NotifyUser, code, applicationName, urlTmpl, authRequestID string) error {

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package zitadel.filter.v2;
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/filter/v2;filter";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2;filter";
 
 import "google/protobuf/timestamp.proto";
 import "protoc-gen-openapiv2/options/annotations.proto";

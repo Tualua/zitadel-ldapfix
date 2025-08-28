@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type CheckType int

@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	user "github.com/zitadel/zitadel/pkg/grpc/user/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	user "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2beta"
 )
 
 func Test_notificationTypeToDomain(t *testing.T) {

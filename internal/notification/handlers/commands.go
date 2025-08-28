@@ -3,9 +3,9 @@ package handlers
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/notification/senders"
-	"github.com/zitadel/zitadel/internal/repository/milestone"
-	"github.com/zitadel/zitadel/internal/repository/quota"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/senders"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/milestone"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/quota"
 )
 
 type Commands interface {

@@ -16,16 +16,16 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/protobuf/proto"
 
-	http_util "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/webauthn"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
-	"github.com/zitadel/zitadel/pkg/grpc/auth"
-	"github.com/zitadel/zitadel/pkg/grpc/instance"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	"github.com/zitadel/zitadel/pkg/grpc/org"
-	"github.com/zitadel/zitadel/pkg/grpc/system"
-	"github.com/zitadel/zitadel/pkg/grpc/user"
-	user_v2 "github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/webauthn"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/auth"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/org"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user"
+	user_v2 "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 // NotEmpty can be used as placeholder, when the returned values is unknown.

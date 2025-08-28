@@ -7,8 +7,8 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/app/v2beta/convert"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/app/v2beta/convert"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
 )
 
 func (s *Server) CreateApplicationKey(ctx context.Context, req *connect.Request[app.CreateApplicationKeyRequest]) (*connect.Response[app.CreateApplicationKeyResponse], error) {

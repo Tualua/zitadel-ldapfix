@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	app "github.com/zitadel/zitadel/pkg/grpc/app/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	project "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	app "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	project "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
 )
 
 func TestServer_ListAppKeys(t *testing.T) {

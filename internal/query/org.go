@@ -9,14 +9,14 @@ import (
 
 	sq "github.com/Masterminds/squirrel"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	domain_pkg "github.com/zitadel/zitadel/internal/domain"
-	es "github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/query/projection"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
-	"github.com/zitadel/zitadel/internal/v2/eventstore"
-	"github.com/zitadel/zitadel/internal/v2/readmodel"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	domain_pkg "github.com/Tualua/zitadel-ldapfix/internal/domain"
+	es "github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/query/projection"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/readmodel"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 var (

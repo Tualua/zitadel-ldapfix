@@ -1127,7 +1127,7 @@ DefaultInstance:
     # UserSchema: false # ZITADEL_DEFAULTINSTANCE_FEATURES_USERSCHEMA
     # TokenExchange: false # ZITADEL_DEFAULTINSTANCE_FEATURES_TOKENEXCHANGE
     ImprovedPerformance: # ZITADEL_DEFAULTINSTANCE_FEATURES_IMPROVEDPERFORMANCE
-    # https://github.com/zitadel/zitadel/blob/main/internal/feature/feature.go#L64-L68
+    # https://github.com/Tualua/zitadel-ldapfix/blob/main/internal/feature/feature.go#L64-L68
     #   - 1 # OrgByID
     #   - 2 # ProjectGrant
     #   - 3 # Project

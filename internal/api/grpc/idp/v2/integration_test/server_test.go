@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	idp_pb "github.com/zitadel/zitadel/pkg/grpc/idp/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	idp_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/idp/v2"
 )
 
 var (

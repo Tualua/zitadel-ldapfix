@@ -10,8 +10,8 @@ import (
 	"github.com/brianvoe/gofakeit/v6"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	project "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	project "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
 )
 
 func TestServer_CreateProjectGrant(t *testing.T) {

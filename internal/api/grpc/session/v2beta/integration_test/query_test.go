@@ -14,9 +14,9 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	object "github.com/zitadel/zitadel/pkg/grpc/object/v2beta"
-	session "github.com/zitadel/zitadel/pkg/grpc/session/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2beta"
+	session "github.com/Tualua/zitadel-ldapfix/pkg/grpc/session/v2beta"
 )
 
 func TestServer_GetSession(t *testing.T) {

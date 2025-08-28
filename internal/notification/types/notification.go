@@ -5,17 +5,17 @@ import (
 	"html"
 	"strings"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/i18n"
-	"github.com/zitadel/zitadel/internal/notification/channels/email"
-	"github.com/zitadel/zitadel/internal/notification/channels/set"
-	"github.com/zitadel/zitadel/internal/notification/channels/sms"
-	"github.com/zitadel/zitadel/internal/notification/channels/webhook"
-	"github.com/zitadel/zitadel/internal/notification/senders"
-	"github.com/zitadel/zitadel/internal/notification/templates"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/email"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/set"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/sms"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels/webhook"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/senders"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/templates"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 type Notify func(

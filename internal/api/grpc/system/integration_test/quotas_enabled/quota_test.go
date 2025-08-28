@@ -13,12 +13,12 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/internal/integration/sink"
-	"github.com/zitadel/zitadel/internal/repository/quota"
-	"github.com/zitadel/zitadel/pkg/grpc/admin"
-	quota_pb "github.com/zitadel/zitadel/pkg/grpc/quota"
-	"github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration/sink"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/quota"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	quota_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/quota"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 var callURL = sink.CallURL(sink.ChannelQuota)

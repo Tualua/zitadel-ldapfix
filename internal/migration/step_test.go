@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 )
 
 func TestStepStates_lastByState(t *testing.T) {

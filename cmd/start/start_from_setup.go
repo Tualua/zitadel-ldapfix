@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/cmd/key"
-	"github.com/zitadel/zitadel/cmd/setup"
-	"github.com/zitadel/zitadel/cmd/tls"
+	"github.com/Tualua/zitadel-ldapfix/cmd/key"
+	"github.com/Tualua/zitadel-ldapfix/cmd/setup"
+	"github.com/Tualua/zitadel-ldapfix/cmd/tls"
 )
 
 func NewStartFromSetup(server chan<- *Server) *cobra.Command {

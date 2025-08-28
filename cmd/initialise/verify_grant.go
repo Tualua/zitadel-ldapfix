@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
 )
 
 func newGrant() *cobra.Command {

@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	object_pb "github.com/zitadel/zitadel/pkg/grpc/object/v2beta"
-	settings "github.com/zitadel/zitadel/pkg/grpc/settings/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	object_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2beta"
+	settings "github.com/Tualua/zitadel-ldapfix/pkg/grpc/settings/v2beta"
 )
 
 func TestServer_GetSecuritySettings(t *testing.T) {

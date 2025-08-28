@@ -16,12 +16,12 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/queue"
-	"github.com/zitadel/zitadel/internal/serviceping/mock"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	analytics "github.com/zitadel/zitadel/pkg/grpc/analytics/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/queue"
+	"github.com/Tualua/zitadel-ldapfix/internal/serviceping/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	analytics "github.com/Tualua/zitadel-ldapfix/pkg/grpc/analytics/v2beta"
 )
 
 var (

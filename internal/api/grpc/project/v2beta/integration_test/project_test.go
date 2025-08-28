@@ -12,10 +12,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/integration"
-	internal_permission_v2beta "github.com/zitadel/zitadel/pkg/grpc/internal_permission/v2beta"
-	project "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	internal_permission_v2beta "github.com/Tualua/zitadel-ldapfix/pkg/grpc/internal_permission/v2beta"
+	project "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
 )
 
 func TestServer_CreateProject(t *testing.T) {

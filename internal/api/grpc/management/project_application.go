@@ -3,15 +3,15 @@ package management
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	authn_grpc "github.com/zitadel/zitadel/internal/api/grpc/authn"
-	change_grpc "github.com/zitadel/zitadel/internal/api/grpc/change"
-	object_grpc "github.com/zitadel/zitadel/internal/api/grpc/object"
-	project_grpc "github.com/zitadel/zitadel/internal/api/grpc/project"
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/repository/project"
-	mgmt_pb "github.com/zitadel/zitadel/pkg/grpc/management"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	authn_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/authn"
+	change_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/change"
+	object_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	project_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/project"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/project"
+	mgmt_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
 )
 
 func (s *Server) GetAppByID(ctx context.Context, req *mgmt_pb.GetAppByIDRequest) (*mgmt_pb.GetAppByIDResponse, error) {

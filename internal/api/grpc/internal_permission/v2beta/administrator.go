@@ -6,10 +6,10 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	internal_permission "github.com/zitadel/zitadel/pkg/grpc/internal_permission/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	internal_permission "github.com/Tualua/zitadel-ldapfix/pkg/grpc/internal_permission/v2beta"
 )
 
 func (s *Server) CreateAdministrator(ctx context.Context, req *connect.Request[internal_permission.CreateAdministratorRequest]) (*connect.Response[internal_permission.CreateAdministratorResponse], error) {

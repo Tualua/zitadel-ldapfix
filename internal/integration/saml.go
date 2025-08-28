@@ -19,12 +19,12 @@ import (
 	"github.com/zitadel/logging"
 	"github.com/zitadel/saml/pkg/provider"
 
-	http_util "github.com/zitadel/zitadel/internal/api/http"
-	oidc_internal "github.com/zitadel/zitadel/internal/api/oidc"
-	app_pb "github.com/zitadel/zitadel/pkg/grpc/app"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	saml_pb "github.com/zitadel/zitadel/pkg/grpc/saml/v2"
-	session_pb "github.com/zitadel/zitadel/pkg/grpc/session/v2"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	oidc_internal "github.com/Tualua/zitadel-ldapfix/internal/api/oidc"
+	app_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/app"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	saml_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/saml/v2"
+	session_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/session/v2"
 )
 
 const spCertificate = `-----BEGIN CERTIFICATE-----

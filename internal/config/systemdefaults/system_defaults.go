@@ -3,7 +3,7 @@ package systemdefaults
 import (
 	"time"
 
-	"github.com/zitadel/zitadel/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
 )
 
 type SystemDefaults struct {

@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	zitadel_http "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/feature"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	zitadel_http "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/feature"
 )
 
 func Test_instanceInterceptor_Handler(t *testing.T) {

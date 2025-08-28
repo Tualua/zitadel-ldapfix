@@ -1,6 +1,6 @@
 package channels
 
-import "github.com/zitadel/zitadel/internal/eventstore"
+import "github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 
 type Message interface {
 	GetTriggeringEventType() eventstore.EventType

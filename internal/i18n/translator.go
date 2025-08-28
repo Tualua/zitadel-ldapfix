@@ -9,8 +9,8 @@ import (
 	"github.com/zitadel/logging"
 	"golang.org/x/text/language"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	http_util "github.com/zitadel/zitadel/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	http_util "github.com/Tualua/zitadel-ldapfix/internal/api/http"
 )
 
 type Translator struct {

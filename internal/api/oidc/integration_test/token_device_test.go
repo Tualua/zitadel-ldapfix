@@ -14,11 +14,11 @@ import (
 	"github.com/zitadel/oidc/v3/pkg/client/rp"
 	"github.com/zitadel/oidc/v3/pkg/oidc"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/app"
-	"github.com/zitadel/zitadel/pkg/grpc/auth"
-	oidc_pb "github.com/zitadel/zitadel/pkg/grpc/oidc/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/app"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/auth"
+	oidc_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/oidc/v2"
 )
 
 func TestServer_DeviceAuth(t *testing.T) {

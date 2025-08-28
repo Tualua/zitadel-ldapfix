@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/zitadel/zitadel/internal/iam/model"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/iam/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 func PasswordComplexityViewToModel(policy *query.PasswordComplexityPolicy) *model.PasswordComplexityPolicyView {

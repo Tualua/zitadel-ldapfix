@@ -7,11 +7,11 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	filter "github.com/zitadel/zitadel/internal/api/grpc/filter/v2beta"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	authorization "github.com/zitadel/zitadel/pkg/grpc/authorization/v2beta"
-	filter_pb "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
+	filter "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	authorization "github.com/Tualua/zitadel-ldapfix/pkg/grpc/authorization/v2beta"
+	filter_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
 )
 
 func (s *Server) ListAuthorizations(ctx context.Context, req *connect.Request[authorization.ListAuthorizationsRequest]) (*connect.Response[authorization.ListAuthorizationsResponse], error) {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	http_utils "github.com/zitadel/zitadel/internal/api/http"
+	http_utils "github.com/Tualua/zitadel-ldapfix/internal/api/http"
 )
 
 type Cache struct {

@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/idp/providers/saml/requesttracker"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/saml/requesttracker"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func TestSession_FetchUser(t *testing.T) {

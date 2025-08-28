@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/app"
-	object "github.com/zitadel/zitadel/pkg/grpc/object/v2beta"
-	oidc_pb "github.com/zitadel/zitadel/pkg/grpc/oidc/v2beta"
-	session "github.com/zitadel/zitadel/pkg/grpc/session/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/app"
+	object "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2beta"
+	oidc_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/oidc/v2beta"
+	session "github.com/Tualua/zitadel-ldapfix/pkg/grpc/session/v2beta"
 )
 
 func TestServer_GetAuthRequest(t *testing.T) {

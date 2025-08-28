@@ -3,8 +3,8 @@ package query
 import (
 	"time"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/query/projection"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/query/projection"
 )
 
 type Key interface {

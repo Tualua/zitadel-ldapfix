@@ -486,7 +486,7 @@ func TestHasherConfig_decodeParams(t *testing.T) {
 				A: 1,
 				B: 2,
 			},
-			wantErr: false, // https://github.com/zitadel/zitadel/issues/6913
+			wantErr: false, // https://github.com/Tualua/zitadel-ldapfix/issues/6913
 		},
 		{
 			name: "ok",

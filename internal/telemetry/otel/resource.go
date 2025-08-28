@@ -5,7 +5,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/resource"
 	semconv "go.opentelemetry.io/otel/semconv/v1.17.0"
 
-	"github.com/zitadel/zitadel/cmd/build"
+	"github.com/Tualua/zitadel-ldapfix/cmd/build"
 )
 
 func ResourceWithService(serviceName string) (*resource.Resource, error) {

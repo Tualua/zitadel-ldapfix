@@ -5,8 +5,8 @@ import (
 
 	"github.com/zitadel/saml/pkg/provider/serviceprovider"
 
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 const (

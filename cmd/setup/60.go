@@ -4,9 +4,9 @@ import (
 	"context"
 	_ "embed"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/serviceping"
-	"github.com/zitadel/zitadel/internal/v2/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/serviceping"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/system"
 )
 
 type GenerateSystemID struct {

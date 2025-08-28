@@ -101,7 +101,7 @@ module.exports = {
           type: "html",
           position: "right",
           value:
-            '<a href="https://github.com/zitadel/zitadel/discussions" style="text-decoration: none; width: 20px; height: 24px; display: flex"><i class="las la-comments"></i></a>',
+            '<a href="https://github.com/Tualua/zitadel-ldapfix/discussions" style="text-decoration: none; width: 20px; height: 24px; display: flex"><i class="las la-comments"></i></a>',
         },
         {
           type: "html",
@@ -128,7 +128,7 @@ module.exports = {
             },
             {
               label: "GitHub Discussions",
-              href: "https://github.com/zitadel/zitadel/discussions",
+              href: "https://github.com/Tualua/zitadel-ldapfix/discussions",
             },
             {
               label: "Twitter",
@@ -217,7 +217,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          editUrl: "https://github.com/zitadel/zitadel/edit/main/docs/",
+          editUrl: "https://github.com/Tualua/zitadel-ldapfix/edit/main/docs/",
           remarkPlugins: [require("mdx-mermaid")],
           docItemComponent: "@theme/ApiItem",
         },

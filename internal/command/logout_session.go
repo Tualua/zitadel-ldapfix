@@ -3,8 +3,8 @@ package command
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/repository/sessionlogout"
-	"github.com/zitadel/zitadel/internal/telemetry/tracing"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/sessionlogout"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/tracing"
 )
 
 func (c *Commands) BackChannelLogoutSent(ctx context.Context, id, oidcSessionID, instanceID string) (err error) {

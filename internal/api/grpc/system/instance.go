@@ -3,12 +3,12 @@ package system
 import (
 	"context"
 
-	instance_grpc "github.com/zitadel/zitadel/internal/api/grpc/instance"
-	"github.com/zitadel/zitadel/internal/api/grpc/member"
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/query"
-	object_pb "github.com/zitadel/zitadel/pkg/grpc/object"
-	system_pb "github.com/zitadel/zitadel/pkg/grpc/system"
+	instance_grpc "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/instance"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/member"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	object_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/object"
+	system_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 func (s *Server) ListInstances(ctx context.Context, req *system_pb.ListInstancesRequest) (*system_pb.ListInstancesResponse, error) {

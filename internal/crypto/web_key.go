@@ -12,7 +12,7 @@ import (
 	"github.com/go-jose/go-jose/v4"
 	"github.com/muhlemmer/gu"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type KeyUsage int32

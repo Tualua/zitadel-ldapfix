@@ -3,7 +3,7 @@ package domain
 import (
 	"strings"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	zitadel_http "github.com/zitadel/zitadel/internal/api/http"
+	zitadel_http "github.com/Tualua/zitadel-ldapfix/internal/api/http"
 )
 
 type AccessLog struct {

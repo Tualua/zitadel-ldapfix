@@ -5,12 +5,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/zitadel/zitadel/internal/cache"
-	"github.com/zitadel/zitadel/internal/cache/connector/gomap"
-	"github.com/zitadel/zitadel/internal/cache/connector/noop"
-	"github.com/zitadel/zitadel/internal/cache/connector/pg"
-	"github.com/zitadel/zitadel/internal/cache/connector/redis"
-	"github.com/zitadel/zitadel/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache/connector/gomap"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache/connector/noop"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache/connector/pg"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache/connector/redis"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
 )
 
 type CachesConfig struct {

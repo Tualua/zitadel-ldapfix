@@ -3,7 +3,7 @@ package saml
 import (
 	"github.com/zitadel/saml/pkg/provider/models"
 
-	"github.com/zitadel/zitadel/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
 )
 
 var _ models.AuthRequestInt = &AuthRequestV2{}

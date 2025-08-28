@@ -6,24 +6,24 @@ Thank you for your interest about how to contribute! As you might know there is 
 
 Please give us and our community the chance to get rid of security vulnerabilities by responsibly disclose this kind of issues by contacting [security@zitadel.com](mailto:security@zitadel.com).
 
-The strongest part of a community is the possibility to share thoughts. That's why we try to react as soon as possible to your ideas, thoughts and feedback. We love to discuss as much as possible in an open space like in the [issues](https://github.com/zitadel/zitadel/issues) and [discussions](https://github.com/zitadel/zitadel/discussions) section here or in our [chat](https://zitadel.com/chat), but we understand your doubts and provide further contact options [here](https://zitadel.com/contact).
+The strongest part of a community is the possibility to share thoughts. That's why we try to react as soon as possible to your ideas, thoughts and feedback. We love to discuss as much as possible in an open space like in the [issues](https://github.com/Tualua/zitadel-ldapfix/issues) and [discussions](https://github.com/Tualua/zitadel-ldapfix/discussions) section here or in our [chat](https://zitadel.com/chat), but we understand your doubts and provide further contact options [here](https://zitadel.com/contact).
 
 If you want to give an answer or be part of discussions please be kind. Treat others like you want to be treated. Read more about our code of conduct [here](CODE_OF_CONDUCT.md).
 
 ## What can I contribute?
 
 For people who are new to Zitadel: We flag issues which are a good starting point to start contributing.
-You find them [here](https://github.com/zitadel/zitadel/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+You find them [here](https://github.com/Tualua/zitadel-ldapfix/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 We add the label "good first issue" for problems we think are a good starting point to contribute to Zitadel.
 
-- [Issues for first time contributors](https://github.com/zitadel/zitadel/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
-- [All issues](https://github.com/zitadel/zitadel/issues)
+- [Issues for first time contributors](https://github.com/Tualua/zitadel-ldapfix/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+- [All issues](https://github.com/Tualua/zitadel-ldapfix/issues)
 
 Help shaping the future of Zitadel:
 
 - Join our [chat](https://zitadel.com/chat) and discuss with us or others.
-- Ask or answer questions in the [issues section](https://github.com/zitadel/zitadel/issues)
-- Share your thoughts and ideas in the [discussions section](https://github.com/zitadel/zitadel/discussions)
+- Ask or answer questions in the [issues section](https://github.com/Tualua/zitadel-ldapfix/issues)
+- Share your thoughts and ideas in the [discussions section](https://github.com/Tualua/zitadel-ldapfix/discussions)
 
 Make Zitadel more popular and give it a ⭐
 
@@ -410,7 +410,7 @@ Proceed [with configuring your console redirect URIs](console-redirect).
 #### <a name="console-dev-local-zitadel"></a>Develop against a local Zitadel instance from scratch
 
 By executing the commands from this section, you run everything you need to develop the console locally.
-Using [Docker Compose](https://docs.docker.com/compose/), you run [PostgreSQL](https://www.postgresql.org/download/) and the [latest release of Zitadel](https://github.com/zitadel/zitadel/releases/latest) on your local machine.
+Using [Docker Compose](https://docs.docker.com/compose/), you run [PostgreSQL](https://www.postgresql.org/download/) and the [latest release of Zitadel](https://github.com/Tualua/zitadel-ldapfix/releases/latest) on your local machine.
 You use the Zitadel container as backend for your console.
 
 Run the database and the latest backend locally.

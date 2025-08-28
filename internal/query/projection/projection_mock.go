@@ -13,8 +13,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	eventstore "github.com/zitadel/zitadel/internal/eventstore"
-	handler "github.com/zitadel/zitadel/internal/eventstore/handler/v2"
+	eventstore "github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	handler "github.com/Tualua/zitadel-ldapfix/internal/eventstore/handler/v2"
 	gomock "go.uber.org/mock/gomock"
 )
 

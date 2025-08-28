@@ -19,7 +19,7 @@ import (
 	"github.com/zitadel/passwap/sha2"
 	"github.com/zitadel/passwap/verifier"
 
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type Hasher struct {

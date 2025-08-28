@@ -7,7 +7,7 @@ import "google/protobuf/timestamp.proto";
 
 package zitadel.instance.v2beta;
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta;instance";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta;instance";
 
 message Instance {
     string id = 1 [

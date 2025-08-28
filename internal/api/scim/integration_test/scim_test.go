@@ -11,8 +11,8 @@ import (
 
 	"github.com/brianvoe/gofakeit/v6"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/org/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2"
 )
 
 var (

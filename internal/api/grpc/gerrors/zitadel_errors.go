@@ -11,9 +11,9 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/protoadapt"
 
-	commandErrors "github.com/zitadel/zitadel/internal/command/errors"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	"github.com/zitadel/zitadel/pkg/grpc/message"
+	commandErrors "github.com/Tualua/zitadel-ldapfix/internal/command/errors"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/message"
 )
 
 func ZITADELToGRPCError(err error) error {

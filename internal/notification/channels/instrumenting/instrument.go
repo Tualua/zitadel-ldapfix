@@ -3,7 +3,7 @@ package instrumenting
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/notification/channels"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
 )
 
 func Wrap(

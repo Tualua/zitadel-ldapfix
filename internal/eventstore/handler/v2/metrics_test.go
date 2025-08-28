@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/telemetry/metrics"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics"
 )
 
 func TestNewProjectionMetrics(t *testing.T) {

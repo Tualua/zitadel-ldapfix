@@ -13,8 +13,8 @@ Also the support may differ depending on your contracts. Read more about it on o
 ### Supported
 
 Supported features are those that are guaranteed to work as intended and are fully tested by our team.
-If you encounter any issues with a supported feature, please contact us by creating a [bug report](https://github.com/zitadel/zitadel/issues/new/choose).
-We will review the issues according to our [product management process](https://github.com/zitadel/zitadel/blob/main/CONTRIBUTING.md#product-management).
+If you encounter any issues with a supported feature, please contact us by creating a [bug report](https://github.com/Tualua/zitadel-ldapfix/issues/new/choose).
+We will review the issues according to our [product management process](https://github.com/Tualua/zitadel-ldapfix/blob/main/CONTRIBUTING.md#product-management).
 
 In case you are eligible to [support services](/docs/legal/service-description/support-services) get in touch via one of our support channels and we will provide prompt response to the issues you may experience and make our best effort to assist you to find a resolution.
 
@@ -84,7 +84,7 @@ All release channels receive regular updates and bug fixes.
 However, the timing and frequency of updates may differ between the channels.
 The choice between the "release candidate", "latest" and stable release channels depends on the specific requirements, preferences, and risk tolerance of the users.
 
-[List of all releases](https://github.com/zitadel/zitadel/releases)
+[List of all releases](https://github.com/Tualua/zitadel-ldapfix/releases)
 
 ### Release candidate
 

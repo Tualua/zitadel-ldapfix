@@ -1,6 +1,6 @@
 package handler
 
-import "github.com/zitadel/zitadel/internal/eventstore"
+import "github.com/Tualua/zitadel-ldapfix/internal/eventstore"
 
 // EventReducer represents the required data
 // to work with events

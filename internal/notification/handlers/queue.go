@@ -5,7 +5,7 @@ import (
 
 	"github.com/riverqueue/river"
 
-	"github.com/zitadel/zitadel/internal/queue"
+	"github.com/Tualua/zitadel-ldapfix/internal/queue"
 )
 
 type Queue interface {

@@ -11,9 +11,9 @@ import (
 	"github.com/k3a/html2text"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/notification/channels"
-	"github.com/zitadel/zitadel/internal/notification/messages"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/messages"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func InitFSChannel(config Config) (channels.NotificationChannel, error) {

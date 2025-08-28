@@ -3,7 +3,7 @@ package permissionmock
 import (
 	"golang.org/x/net/context"
 
-	"github.com/zitadel/zitadel/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 // MockPermissionCheckErr returns a permission check function that will fail

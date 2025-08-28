@@ -3,9 +3,9 @@ package user
 import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/user/model"
-	"github.com/zitadel/zitadel/pkg/grpc/user"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/user/model"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user"
 )
 
 func RefreshTokensToPb(refreshTokens []*model.RefreshTokenView) []*user.RefreshToken {

@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/mock/gomock"
 
-	"github.com/zitadel/zitadel/internal/eventstore/repository"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/repository"
 )
 
 var _ gomock.Matcher = (*filterMatcher)(nil)

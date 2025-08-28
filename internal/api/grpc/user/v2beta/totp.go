@@ -5,9 +5,9 @@ import (
 
 	"connectrpc.com/connect"
 
-	object "github.com/zitadel/zitadel/internal/api/grpc/object/v2beta"
-	"github.com/zitadel/zitadel/internal/domain"
-	user "github.com/zitadel/zitadel/pkg/grpc/user/v2beta"
+	object "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	user "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2beta"
 )
 
 func (s *Server) RegisterTOTP(ctx context.Context, req *connect.Request[user.RegisterTOTPRequest]) (*connect.Response[user.RegisterTOTPResponse], error) {

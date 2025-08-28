@@ -14,10 +14,10 @@ import (
 	"github.com/zitadel/logging"
 	"google.golang.org/grpc/metadata"
 
-	zhttp "github.com/zitadel/zitadel/internal/api/http"
-	"github.com/zitadel/zitadel/internal/api/scim/middleware"
-	"github.com/zitadel/zitadel/internal/api/scim/resources"
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
+	zhttp "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/middleware"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
 )
 
 type Client struct {

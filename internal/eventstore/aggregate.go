@@ -3,7 +3,7 @@ package eventstore
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
 )
 
 type aggregateOpt func(*Aggregate)

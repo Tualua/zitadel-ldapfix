@@ -6,7 +6,7 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	instance "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta"
+	instance "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta"
 )
 
 func (s *Server) AddCustomDomain(ctx context.Context, req *connect.Request[instance.AddCustomDomainRequest]) (*connect.Response[instance.AddCustomDomainResponse], error) {

@@ -12,8 +12,8 @@ import (
 	"github.com/robfig/cron/v3"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/telemetry/metrics"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics"
 )
 
 // Queue abstracts the underlying queuing library

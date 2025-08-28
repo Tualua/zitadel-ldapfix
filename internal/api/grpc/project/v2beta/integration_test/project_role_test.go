@@ -11,9 +11,9 @@ import (
 	"github.com/muhlemmer/gu"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	project "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	project "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
 )
 
 func TestServer_AddProjectRole(t *testing.T) {

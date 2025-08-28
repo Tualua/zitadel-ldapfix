@@ -3,10 +3,10 @@ package filter
 import (
 	"fmt"
 
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	filter "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	filter "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
 )
 
 func TextMethodPbToQuery(method filter.TextFilterMethod) query.TextComparison {

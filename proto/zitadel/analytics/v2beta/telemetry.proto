@@ -4,7 +4,7 @@ package zitadel.analytics.v2beta;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/analytics/v2beta;analytics";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/analytics/v2beta;analytics";
 
 
 message InstanceInformation {

@@ -3,8 +3,8 @@ package postgres
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/database"
-	"github.com/zitadel/zitadel/internal/v2/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/database"
+	"github.com/Tualua/zitadel-ldapfix/internal/v2/eventstore"
 )
 
 var (

@@ -6,13 +6,13 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	project "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/project/v2beta/projectconnect"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	project "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta/projectconnect"
 )
 
 var _ projectconnect.ProjectServiceHandler = (*Server)(nil)

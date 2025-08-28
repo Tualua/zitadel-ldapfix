@@ -7,15 +7,15 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	metadata "github.com/zitadel/zitadel/internal/api/grpc/metadata/v2beta"
-	object "github.com/zitadel/zitadel/internal/api/grpc/object/v2beta"
-	user "github.com/zitadel/zitadel/internal/api/grpc/user/v2beta"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	filter "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
-	org "github.com/zitadel/zitadel/pkg/grpc/org/v2beta"
-	v2beta_org "github.com/zitadel/zitadel/pkg/grpc/org/v2beta"
+	metadata "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/metadata/v2beta"
+	object "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2beta"
+	user "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/user/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	filter "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
+	org "github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2beta"
+	v2beta_org "github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2beta"
 )
 
 func (s *Server) CreateOrganization(ctx context.Context, request *connect.Request[v2beta_org.CreateOrganizationRequest]) (*connect.Response[v2beta_org.CreateOrganizationResponse], error) {

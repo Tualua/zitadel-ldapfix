@@ -9,8 +9,8 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/jinzhu/gorm"
 
-	db_mock "github.com/zitadel/zitadel/internal/database/mock"
-	"github.com/zitadel/zitadel/internal/domain"
+	db_mock "github.com/Tualua/zitadel-ldapfix/internal/database/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 var (

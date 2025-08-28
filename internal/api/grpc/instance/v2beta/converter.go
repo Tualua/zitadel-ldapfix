@@ -3,13 +3,13 @@ package instance
 import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/cmd/build"
-	filter "github.com/zitadel/zitadel/internal/api/grpc/filter/v2beta"
-	"github.com/zitadel/zitadel/internal/api/grpc/object/v2"
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/query"
-	"github.com/zitadel/zitadel/internal/zerrors"
-	instance "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/cmd/build"
+	filter "github.com/Tualua/zitadel-ldapfix/internal/api/grpc/filter/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
+	instance "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta"
 )
 
 func InstancesToPb(instances []*query.Instance) []*instance.Instance {

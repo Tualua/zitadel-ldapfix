@@ -13,9 +13,9 @@ import (
 	"github.com/muhlemmer/gu"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/api/scim/resources"
-	"github.com/zitadel/zitadel/pkg/grpc/object/v2"
-	user_v2 "github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/object/v2"
+	user_v2 "github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 var totalCountOfHumanUsers = 13

@@ -7,8 +7,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/idp"
-	"github.com/zitadel/zitadel/internal/idp/providers/oidc"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/oidc"
 )
 
 const (

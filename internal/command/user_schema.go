@@ -5,10 +5,10 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	domain_schema "github.com/zitadel/zitadel/internal/domain/schema"
-	"github.com/zitadel/zitadel/internal/repository/user/schema"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	domain_schema "github.com/Tualua/zitadel-ldapfix/internal/domain/schema"
+	"github.com/Tualua/zitadel-ldapfix/internal/repository/user/schema"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type CreateUserSchema struct {
@@ -168,7 +168,7 @@ func (c *Commands) DeleteUserSchema(ctx context.Context, id, resourceOwner strin
 	if !writeModel.Exists() {
 		return nil, zerrors.ThrowPreconditionFailed(nil, "COMMA-Grg41", "Errors.UserSchema.NotExists")
 	}
-	// TODO: check for users based on that schema; this is only possible with / after https://github.com/zitadel/zitadel/issues/7308
+	// TODO: check for users based on that schema; this is only possible with / after https://github.com/Tualua/zitadel-ldapfix/issues/7308
 	if err := c.pushAppendAndReduce(ctx, writeModel,
 		schema.NewDeletedEvent(ctx, UserSchemaAggregateFromWriteModel(&writeModel.WriteModel), writeModel.SchemaType),
 	); err != nil {

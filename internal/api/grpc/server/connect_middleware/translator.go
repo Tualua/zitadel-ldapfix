@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/zitadel/zitadel/internal/i18n"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/i18n"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 type localizers interface {

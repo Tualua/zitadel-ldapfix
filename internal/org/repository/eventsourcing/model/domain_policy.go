@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/zitadel/zitadel/internal/eventstore"
-	iam_es_model "github.com/zitadel/zitadel/internal/iam/repository/eventsourcing/model"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	iam_es_model "github.com/Tualua/zitadel-ldapfix/internal/iam/repository/eventsourcing/model"
 )
 
 func (o *Org) appendAddDomainPolicyEvent(event eventstore.Event) error {

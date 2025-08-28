@@ -115,7 +115,7 @@ For example, use `organization_id` instead of **org_id** or **resource_owner** f
 > [!NOTE]
 > We'll update the resources in the [concepts section](https://zitadel.com/docs/concepts/structure/instance) to describe
 > common resources and their meaning.
-> Until then, please refer to the following issue: https://github.com/zitadel/zitadel/issues/5888
+> Until then, please refer to the following issue: https://github.com/Tualua/zitadel-ldapfix/issues/5888
 
 #### Resources and Fields
 

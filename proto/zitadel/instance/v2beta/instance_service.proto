@@ -13,7 +13,7 @@ import "google/api/field_behavior.proto";
 import "google/protobuf/timestamp.proto";
 import "zitadel/protoc_gen_zitadel/v2/options.proto";
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta;instance";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta;instance";
 
 option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
   info: {
@@ -27,7 +27,7 @@ option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
     }
     license: {
       name: "AGPL-3.0-only",
-      url: "https://github.com/zitadel/zitadel/blob/main/LICENSING.md";
+      url: "https://github.com/Tualua/zitadel-ldapfix/blob/main/LICENSING.md";
     };
   };
   schemes: HTTPS;

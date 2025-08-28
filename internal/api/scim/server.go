@@ -8,17 +8,17 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	zhttp "github.com/zitadel/zitadel/internal/api/http"
-	zhttp_middlware "github.com/zitadel/zitadel/internal/api/http/middleware"
-	sconfig "github.com/zitadel/zitadel/internal/api/scim/config"
-	smiddleware "github.com/zitadel/zitadel/internal/api/scim/middleware"
-	sresources "github.com/zitadel/zitadel/internal/api/scim/resources"
-	"github.com/zitadel/zitadel/internal/api/scim/schemas"
-	"github.com/zitadel/zitadel/internal/api/scim/serrors"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/crypto"
-	"github.com/zitadel/zitadel/internal/query"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	zhttp "github.com/Tualua/zitadel-ldapfix/internal/api/http"
+	zhttp_middlware "github.com/Tualua/zitadel-ldapfix/internal/api/http/middleware"
+	sconfig "github.com/Tualua/zitadel-ldapfix/internal/api/scim/config"
+	smiddleware "github.com/Tualua/zitadel-ldapfix/internal/api/scim/middleware"
+	sresources "github.com/Tualua/zitadel-ldapfix/internal/api/scim/resources"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/schemas"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/scim/serrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
 )
 
 func NewServer(

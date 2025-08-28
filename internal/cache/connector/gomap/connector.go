@@ -1,7 +1,7 @@
 package gomap
 
 import (
-	"github.com/zitadel/zitadel/internal/cache"
+	"github.com/Tualua/zitadel-ldapfix/internal/cache"
 )
 
 type Config struct {

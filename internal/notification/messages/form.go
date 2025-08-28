@@ -5,8 +5,8 @@ import (
 
 	"github.com/zitadel/schema"
 
-	"github.com/zitadel/zitadel/internal/eventstore"
-	"github.com/zitadel/zitadel/internal/notification/channels"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
 )
 
 var _ channels.Message = (*Form)(nil)

@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/zitadel/zitadel/internal/api/call"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/call"
 )
 
 func CallDurationHandler() grpc.UnaryServerInterceptor {

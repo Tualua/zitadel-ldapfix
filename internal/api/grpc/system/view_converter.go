@@ -3,8 +3,8 @@ package system
 import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/query"
-	system_pb "github.com/zitadel/zitadel/pkg/grpc/system"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	system_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/system"
 )
 
 func CurrentSequencesToPb(database string, currentSequences *query.CurrentStates) []*system_pb.View {

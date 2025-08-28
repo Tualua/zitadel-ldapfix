@@ -15,11 +15,11 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/grpc/metadata"
 
-	oidc_api "github.com/zitadel/zitadel/internal/api/oidc"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/integration"
-	"github.com/zitadel/zitadel/pkg/grpc/management"
-	oidc_pb "github.com/zitadel/zitadel/pkg/grpc/oidc/v2"
+	oidc_api "github.com/Tualua/zitadel-ldapfix/internal/api/oidc"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/management"
+	oidc_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/oidc/v2"
 )
 
 func TestServer_UserInfo(t *testing.T) {
@@ -244,7 +244,7 @@ func TestServer_UserInfo_OrgIDRoles(t *testing.T) {
 	}
 }
 
-// https://github.com/zitadel/zitadel/issues/6662
+// https://github.com/Tualua/zitadel-ldapfix/issues/6662
 func TestServer_UserInfo_Issue6662(t *testing.T) {
 	const (
 		roleFoo = "foo"

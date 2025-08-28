@@ -6,7 +6,7 @@ import "zitadel/filter/v2beta/filter.proto";
 
 package zitadel.internal_permission.v2beta;
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/internal_permission/v2beta;internal_permission";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/internal_permission/v2beta;internal_permission";
 
 message Administrator {
   // CreationDate is the timestamp when the administrator role was granted.

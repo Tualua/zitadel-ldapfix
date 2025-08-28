@@ -14,8 +14,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	webkey "github.com/zitadel/zitadel/pkg/grpc/webkey/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	webkey "github.com/Tualua/zitadel-ldapfix/pkg/grpc/webkey/v2beta"
 )
 
 var (

@@ -6,14 +6,14 @@ import (
 	"connectrpc.com/connect"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/api/grpc/server"
-	"github.com/zitadel/zitadel/internal/command"
-	"github.com/zitadel/zitadel/internal/config/systemdefaults"
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	org "github.com/zitadel/zitadel/pkg/grpc/org/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/org/v2beta/orgconnect"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/server"
+	"github.com/Tualua/zitadel-ldapfix/internal/command"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/systemdefaults"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	org "github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2beta/orgconnect"
 )
 
 var _ orgconnect.OrganizationServiceHandler = (*Server)(nil)

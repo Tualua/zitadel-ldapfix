@@ -12,10 +12,10 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/zitadel/zitadel/internal/crypto"
-	z_db "github.com/zitadel/zitadel/internal/database"
-	db_mock "github.com/zitadel/zitadel/internal/database/mock"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/crypto"
+	z_db "github.com/Tualua/zitadel-ldapfix/internal/database"
+	db_mock "github.com/Tualua/zitadel-ldapfix/internal/database/mock"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 func Test_database_ReadKeys(t *testing.T) {

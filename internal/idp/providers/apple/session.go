@@ -6,8 +6,8 @@ import (
 
 	openid "github.com/zitadel/oidc/v3/pkg/oidc"
 
-	"github.com/zitadel/zitadel/internal/idp"
-	"github.com/zitadel/zitadel/internal/idp/providers/oidc"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp"
+	"github.com/Tualua/zitadel-ldapfix/internal/idp/providers/oidc"
 )
 
 var _ idp.Session = (*Session)(nil)

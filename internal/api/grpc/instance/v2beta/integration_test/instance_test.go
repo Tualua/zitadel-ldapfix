@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	instance "github.com/zitadel/zitadel/pkg/grpc/instance/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	instance "github.com/Tualua/zitadel-ldapfix/pkg/grpc/instance/v2beta"
 )
 
 func TestDeleteInstace(t *testing.T) {

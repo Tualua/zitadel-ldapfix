@@ -9,9 +9,9 @@ import (
 	verify "github.com/twilio/twilio-go/rest/verify/v2"
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/notification/channels"
-	"github.com/zitadel/zitadel/internal/notification/messages"
-	"github.com/zitadel/zitadel/internal/zerrors"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/channels"
+	"github.com/Tualua/zitadel-ldapfix/internal/notification/messages"
+	"github.com/Tualua/zitadel-ldapfix/internal/zerrors"
 )
 
 const (

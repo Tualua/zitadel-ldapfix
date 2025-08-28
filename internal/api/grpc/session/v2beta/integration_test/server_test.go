@@ -10,9 +10,9 @@ import (
 
 	"github.com/zitadel/logging"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	session "github.com/zitadel/zitadel/pkg/grpc/session/v2beta"
-	"github.com/zitadel/zitadel/pkg/grpc/user/v2"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	session "github.com/Tualua/zitadel-ldapfix/pkg/grpc/session/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/user/v2"
 )
 
 var (

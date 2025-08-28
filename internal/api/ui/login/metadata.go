@@ -3,8 +3,8 @@ package login
 import (
 	"context"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
 )
 
 func (l *Login) bulkSetUserMetadata(ctx context.Context, userID, orgID string, metadata []*domain.Metadata) error {

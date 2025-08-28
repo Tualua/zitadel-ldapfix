@@ -7,7 +7,7 @@ import (
 
 	"connectrpc.com/connect"
 
-	"github.com/zitadel/zitadel/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/authz"
 )
 
 func Test_toGRPCError(t *testing.T) {

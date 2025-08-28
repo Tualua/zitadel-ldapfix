@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/zitadel/zitadel/internal/integration"
-	filter "github.com/zitadel/zitadel/pkg/grpc/filter/v2beta"
-	project "github.com/zitadel/zitadel/pkg/grpc/project/v2beta"
+	"github.com/Tualua/zitadel-ldapfix/internal/integration"
+	filter "github.com/Tualua/zitadel-ldapfix/pkg/grpc/filter/v2beta"
+	project "github.com/Tualua/zitadel-ldapfix/pkg/grpc/project/v2beta"
 )
 
 func TestServer_GetProject(t *testing.T) {

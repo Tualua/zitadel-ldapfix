@@ -3,7 +3,7 @@ package domain
 import (
 	"strings"
 
-	"github.com/zitadel/zitadel/internal/eventstore/v1/models"
+	"github.com/Tualua/zitadel-ldapfix/internal/eventstore/v1/models"
 )
 
 type Org struct {

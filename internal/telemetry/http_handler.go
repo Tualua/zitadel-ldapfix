@@ -6,7 +6,7 @@ import (
 
 	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
 
-	"github.com/zitadel/zitadel/internal/telemetry/metrics"
+	"github.com/Tualua/zitadel-ldapfix/internal/telemetry/metrics"
 )
 
 func shouldNotIgnore(endpoints ...string) func(r *http.Request) bool {

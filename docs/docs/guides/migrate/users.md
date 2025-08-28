@@ -119,7 +119,7 @@ For bulk import use the [import endpoint](/docs/apis/resources/admin/admin-servi
 
 :::info
 We will improve the bulk import interface for users in the future.
-You can show your interest or join the discussion on [this issue](https://github.com/zitadel/zitadel/issues/5524).
+You can show your interest or join the discussion on [this issue](https://github.com/Tualua/zitadel-ldapfix/issues/5524).
 :::
 
 ## Migrate secrets

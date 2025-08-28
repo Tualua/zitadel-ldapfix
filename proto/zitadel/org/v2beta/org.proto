@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package zitadel.org.v2beta;
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/org/v2beta;org";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/org/v2beta;org";
 
 import "protoc-gen-openapiv2/options/annotations.proto";
 import "validate/validate.proto";

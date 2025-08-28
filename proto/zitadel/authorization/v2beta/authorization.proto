@@ -8,7 +8,7 @@ import "validate/validate.proto";
 
 import "zitadel/filter/v2beta/filter.proto";
 
-option go_package = "github.com/zitadel/zitadel/pkg/grpc/authorization/v2beta;authorization";
+option go_package = "github.com/Tualua/zitadel-ldapfix/pkg/grpc/authorization/v2beta;authorization";
 
 message Authorization {
   // ID is the unique identifier of the authorization.

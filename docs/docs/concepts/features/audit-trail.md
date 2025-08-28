@@ -17,8 +17,8 @@ Reviewing a past state of the application can be important when tracing an incid
 :::info Future Plans
 There will be three major areas for future development on the audit data
 
-- [Metrics](https://github.com/zitadel/zitadel/issues/4458) and [standard reports](https://github.com/zitadel/zitadel/discussions/2162#discussioncomment-1153259)
-- [Feedback loop](https://github.com/zitadel/zitadel/issues/5102) and threat detection
+- [Metrics](https://github.com/Tualua/zitadel-ldapfix/issues/4458) and [standard reports](https://github.com/Tualua/zitadel-ldapfix/discussions/2162#discussioncomment-1153259)
+- [Feedback loop](https://github.com/Tualua/zitadel-ldapfix/issues/5102) and threat detection
 - Forensics and replay of events
 
 :::

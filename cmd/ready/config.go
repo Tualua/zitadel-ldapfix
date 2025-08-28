@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/viper"
 	"github.com/zitadel/logging"
 
-	internal_authz "github.com/zitadel/zitadel/internal/api/authz"
-	"github.com/zitadel/zitadel/internal/config/hook"
-	"github.com/zitadel/zitadel/internal/config/network"
+	internal_authz "github.com/Tualua/zitadel-ldapfix/internal/api/authz"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/hook"
+	"github.com/Tualua/zitadel-ldapfix/internal/config/network"
 )
 
 type Config struct {

@@ -1,9 +1,9 @@
 package admin
 
 import (
-	"github.com/zitadel/zitadel/internal/domain"
-	admin_pb "github.com/zitadel/zitadel/pkg/grpc/admin"
-	policy_pb "github.com/zitadel/zitadel/pkg/grpc/policy"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	admin_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/admin"
+	policy_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/policy"
 )
 
 func updateLabelPolicyToDomain(policy *admin_pb.UpdateLabelPolicyRequest) *domain.LabelPolicy {

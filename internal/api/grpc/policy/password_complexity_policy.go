@@ -1,9 +1,9 @@
 package policy
 
 import (
-	"github.com/zitadel/zitadel/internal/api/grpc/object"
-	"github.com/zitadel/zitadel/internal/query"
-	policy_pb "github.com/zitadel/zitadel/pkg/grpc/policy"
+	"github.com/Tualua/zitadel-ldapfix/internal/api/grpc/object"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	policy_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/policy"
 )
 
 func ModelPasswordComplexityPolicyToPb(policy *query.PasswordComplexityPolicy) *policy_pb.PasswordComplexityPolicy {

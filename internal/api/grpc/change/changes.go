@@ -3,10 +3,10 @@ package change
 import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/zitadel/zitadel/internal/domain"
-	"github.com/zitadel/zitadel/internal/query"
-	change_pb "github.com/zitadel/zitadel/pkg/grpc/change"
-	"github.com/zitadel/zitadel/pkg/grpc/message"
+	"github.com/Tualua/zitadel-ldapfix/internal/domain"
+	"github.com/Tualua/zitadel-ldapfix/internal/query"
+	change_pb "github.com/Tualua/zitadel-ldapfix/pkg/grpc/change"
+	"github.com/Tualua/zitadel-ldapfix/pkg/grpc/message"
 )
 
 func EventsToChangesPb(changes []*query.Event, assetAPIPrefix string) []*change_pb.Change {
