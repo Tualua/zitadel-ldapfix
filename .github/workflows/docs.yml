@@ -25,8 +25,8 @@ jobs:
       cache_path: ${{ env.cache_path }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/cache/restore@v4
+      - uses: actions/checkout@v6
+      - uses: actions/cache/restore@v5
         timeout-minutes: 1
         continue-on-error: true
         id: cache
@@ -43,7 +43,7 @@ jobs:
       - if: ${{ steps.cache.outputs.cache-hit != 'true' }}
         uses: pnpm/action-setup@v4
       - if: ${{ steps.cache.outputs.cache-hit != 'true' }}
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ inputs.node_version }}
           cache: "pnpm"
@@ -55,7 +55,7 @@ jobs:
         name: Build docs with Turbo
         run: pnpm turbo build --filter=./docs
       - if: ${{ steps.cache.outputs.cache-hit != 'true' }}
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: ${{ env.cache_path }}
           key: ${{ steps.cache.outputs.cache-primary-key }}
