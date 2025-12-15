@@ -39,13 +39,13 @@ jobs:
           - 6379:6379
     steps:
       - 
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
       -
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: 'go.mod'
       - 
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         timeout-minutes: 1
         name: restore core
         id: restore-core
@@ -58,7 +58,7 @@ jobs:
         name: set cache path
         run: echo "GO_CACHE_PATH=$(go env GOCACHE)" >> $GITHUB_OUTPUT
       - 
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         id: cache
         timeout-minutes: 1
         continue-on-error: true
@@ -77,7 +77,7 @@ jobs:
       -
         name: upload server logs
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: integration-test-server-logs
           path: |
@@ -85,14 +85,14 @@ jobs:
            tmp/race.log.*
       - 
         name: publish coverage
-        uses: codecov/codecov-action@v4.3.0
+        uses: codecov/codecov-action@v5.5.2
         with:
           file: profile.cov
           name: core-integration-tests-postgres
           flags: core-integration-tests-postgres
           token: ${{ secrets.CODECOV_TOKEN }}
       - 
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         name: cache results
         if: ${{ steps.cache.outputs.cache-hit != 'true' }}
         with:
